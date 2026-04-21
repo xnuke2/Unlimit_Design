@@ -1,0 +1,83 @@
+    :where(.css-1ce7347).ant-divider::before,
+    :where(.css-1ce7347).ant-divider::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-divider [class^="ant-divider"]::before,
+    :where(.css-1ce7347).ant-divider [class*=" ant-divider"]::before,
+    :where(.css-1ce7347).ant-divider [class^="ant-divider"]::after,
+    :where(.css-1ce7347).ant-divider [class*=" ant-divider"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-divider {
+        box-sizing: border-box;
+        padding: 0;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        list-style: none;
+        font-family: Nunito, sans-serif;
+        border-block-start: 1px solid rgba(5, 5, 5, 0.06)
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal {
+        display: flex;
+        clear: both;
+        width: 100%;
+        min-width: 100%;
+        margin: 24px 0
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text::before,
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text::after {
+        position: relative;
+        width: 50%;
+        border-block-start: 1px solid transparent;
+        border-block-start-color: inherit;
+        border-block-end: 0;
+        transform: translateY(50%);
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text-start::before {
+        width: calc(0.05*100%)
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text-start::after {
+        width: calc(100% - 0.05*100%)
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text-end::before {
+        width: calc(100% - 0.05*100%)
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text-end::after {
+        width: calc(0.05*100%)
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::before,
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::after {
+        border-style: dashed none none
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text.ant-divider-dotted::before,
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text.ant-divider-dotted::after {
+        border-style: dotted none none
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text-start.ant-divider-no-default-orientation-margin-start::before {
+        width: 0
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text-start.ant-divider-no-default-orientation-margin-start::after {
+        width: 100%
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text-end.ant-divider-no-default-orientation-margin-end::before {
+        width: 100%
+    }
+
+    :where(.css-1ce7347).ant-divider-horizontal.ant-divider-with-text-end.ant-divider-no-default-orientation-margin-end::after {
+        width: 0
+    }

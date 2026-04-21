@@ -1,0 +1,49 @@
+    :where(.css-1ce7347).ant-statistic::before,
+    :where(.css-1ce7347).ant-statistic::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-statistic [class^="ant-statistic"] {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-statistic [class^="ant-statistic"]::before,
+    :where(.css-1ce7347).ant-statistic [class*=" ant-statistic"]::before,
+    :where(.css-1ce7347).ant-statistic [class^="ant-statistic"]::after,
+    :where(.css-1ce7347).ant-statistic [class*=" ant-statistic"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-statistic {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        list-style: none;
+        font-family: Nunito, sans-serif
+    }
+
+    :where(.css-1ce7347).ant-statistic .ant-statistic-title {
+        margin-bottom: 4px;
+        font-size: 14px
+    }
+
+    :where(.css-1ce7347).ant-statistic .ant-statistic-content .ant-statistic-content-value {
+        display: inline-block;
+        direction: ltr
+    }
+
+    :where(.css-1ce7347).ant-statistic .ant-statistic-content .ant-statistic-content-prefix,
+    :where(.css-1ce7347).ant-statistic .ant-statistic-content .ant-statistic-content-suffix {
+        display: inline-block
+    }
+
+    :where(.css-1ce7347).ant-statistic .ant-statistic-content .ant-statistic-content-prefix {
+        margin-inline-end: 4px
+    }
+
+    :where(.css-1ce7347).ant-statistic .ant-statistic-content .ant-statistic-content-suffix {
+        margin-inline-start: 4px
+    }

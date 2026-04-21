@@ -1,0 +1,360 @@
+    :where(.css-1ce7347)[class^="ant-tabs"]::before,
+    :where(.css-1ce7347)[class*=" ant-tabs"]::before,
+    :where(.css-1ce7347)[class^="ant-tabs"]::after,
+    :where(.css-1ce7347)[class*=" ant-tabs"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347)[class^="ant-tabs"] [class^="ant-tabs"],
+    :where(.css-1ce7347)[class*=" ant-tabs"] [class^="ant-tabs"],
+    :where(.css-1ce7347)[class^="ant-tabs"] [class*=" ant-tabs"],
+    :where(.css-1ce7347)[class*=" ant-tabs"] [class*=" ant-tabs"] {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347)[class^="ant-tabs"] [class^="ant-tabs"]::before,
+    :where(.css-1ce7347)[class*=" ant-tabs"] [class^="ant-tabs"]::before,
+    :where(.css-1ce7347)[class^="ant-tabs"] [class*=" ant-tabs"]::before,
+    :where(.css-1ce7347)[class*=" ant-tabs"] [class*=" ant-tabs"]::before,
+    :where(.css-1ce7347)[class^="ant-tabs"] [class^="ant-tabs"]::after,
+    :where(.css-1ce7347)[class*=" ant-tabs"] [class^="ant-tabs"]::after,
+    :where(.css-1ce7347)[class^="ant-tabs"] [class*=" ant-tabs"]::after,
+    :where(.css-1ce7347)[class*=" ant-tabs"] [class*=" ant-tabs"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-tabs-top>.ant-tabs-nav::before,
+    :where(.css-1ce7347).ant-tabs-bottom>.ant-tabs-nav::before,
+    :where(.css-1ce7347).ant-tabs-top>div>.ant-tabs-nav::before,
+    :where(.css-1ce7347).ant-tabs-bottom>div>.ant-tabs-nav::before {
+        position: absolute;
+        right: 0;
+        left: 0;
+        border-bottom: 1px solid #f0f0f0;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-tabs-top>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-bottom>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-top>div>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-bottom>div>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-top>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-bottom>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-top>div>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-bottom>div>.ant-tabs-nav .ant-tabs-nav-wrap::after {
+        top: 0;
+        bottom: 0;
+        width: 32px
+    }
+
+    :where(.css-1ce7347).ant-tabs-top>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-bottom>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-top>div>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-bottom>div>.ant-tabs-nav .ant-tabs-nav-wrap::before {
+        left: 0;
+        box-shadow: inset 10px 0 8px -8px rgba(0, 0, 0, 0.08)
+    }
+
+    :where(.css-1ce7347).ant-tabs-top>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-bottom>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-top>div>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-bottom>div>.ant-tabs-nav .ant-tabs-nav-wrap::after {
+        right: 0;
+        box-shadow: inset -10px 0 8px -8px rgba(0, 0, 0, 0.08)
+    }
+
+    :where(.css-1ce7347).ant-tabs-top>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-left::before,
+    :where(.css-1ce7347).ant-tabs-bottom>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-left::before,
+    :where(.css-1ce7347).ant-tabs-top>div>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-left::before,
+    :where(.css-1ce7347).ant-tabs-bottom>div>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-left::before {
+        opacity: 1
+    }
+
+    :where(.css-1ce7347).ant-tabs-top>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-right::after,
+    :where(.css-1ce7347).ant-tabs-bottom>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-right::after,
+    :where(.css-1ce7347).ant-tabs-top>div>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-right::after,
+    :where(.css-1ce7347).ant-tabs-bottom>div>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-right::after {
+        opacity: 1
+    }
+
+    :where(.css-1ce7347).ant-tabs-top>.ant-tabs-nav::before,
+    :where(.css-1ce7347).ant-tabs-top>div>.ant-tabs-nav::before {
+        bottom: 0
+    }
+
+    :where(.css-1ce7347).ant-tabs-bottom>.ant-tabs-nav::before,
+    :where(.css-1ce7347).ant-tabs-bottom>div>.ant-tabs-nav::before {
+        top: 0
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav {
+        flex-direction: column;
+        min-width: 40px
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-tab {
+        padding: 8px 24px;
+        text-align: center
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-tab+.ant-tabs-tab {
+        margin: 16px 0 0 0
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-nav-wrap {
+        flex-direction: column
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-right>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-left>div>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-right>div>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-right>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-left>div>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-right>div>.ant-tabs-nav .ant-tabs-nav-wrap::after {
+        right: 0;
+        left: 0;
+        height: 32px
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-right>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-left>div>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs-right>div>.ant-tabs-nav .ant-tabs-nav-wrap::before {
+        top: 0;
+        box-shadow: inset 0 10px 8px -8px rgba(0, 0, 0, 0.08)
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-right>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-left>div>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs-right>div>.ant-tabs-nav .ant-tabs-nav-wrap::after {
+        bottom: 0;
+        box-shadow: inset 0-10px 8px -8px rgba(0, 0, 0, 0.08)
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-top::before,
+    :where(.css-1ce7347).ant-tabs-right>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-top::before,
+    :where(.css-1ce7347).ant-tabs-left>div>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-top::before,
+    :where(.css-1ce7347).ant-tabs-right>div>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-top::before {
+        opacity: 1
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-bottom::after,
+    :where(.css-1ce7347).ant-tabs-right>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-bottom::after,
+    :where(.css-1ce7347).ant-tabs-left>div>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-bottom::after,
+    :where(.css-1ce7347).ant-tabs-right>div>.ant-tabs-nav .ant-tabs-nav-wrap.ant-tabs-nav-wrap-ping-bottom::after {
+        opacity: 1
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-ink-bar {
+        width: 2px
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-ink-bar-animated {
+        transition: height 0.3s, top 0.3s
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-nav-list,
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-nav-operations {
+        flex: 1 0 auto;
+        flex-direction: column
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-nav .ant-tabs-ink-bar {
+        right: 0
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-content-holder {
+        margin-left: -1px;
+        border-left: 1px solid #d9d9d9
+    }
+
+    :where(.css-1ce7347).ant-tabs-left>.ant-tabs-content-holder>.ant-tabs-content>.ant-tabs-tabpane {
+        padding-left: 24px
+    }
+
+    :where(.css-1ce7347).ant-tabs-dropdown .ant-tabs-dropdown-menu-item-remove:hover {
+        color: #4096ff
+    }
+
+    :where(.css-1ce7347).ant-tabs-dropdown .ant-tabs-dropdown-menu-item:hover {
+        background: rgba(0, 0, 0, 0.04)
+    }
+
+    :where(.css-1ce7347).ant-tabs-dropdown .ant-tabs-dropdown-menu-item-disabled:hover {
+        color: rgba(0, 0, 0, 0.25);
+        background: transparent;
+        cursor: not-allowed
+    }
+
+    :where(.css-1ce7347).ant-tabs {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        list-style: none;
+        font-family: Nunito, sans-serif;
+        display: flex
+    }
+
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav {
+        position: relative;
+        display: flex;
+        flex: none;
+        align-items: center
+    }
+
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap {
+        position: relative;
+        display: flex;
+        flex: auto;
+        align-self: stretch;
+        overflow: hidden;
+        white-space: nowrap;
+        transform: translate(0)
+    }
+
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-wrap::before,
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap::after,
+    :where(.css-1ce7347).ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-wrap::after {
+        position: absolute;
+        z-index: 1;
+        opacity: 0;
+        transition: opacity 0.3s;
+        content: "";
+        pointer-events: none
+    }
+
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-list {
+        position: relative;
+        display: flex;
+        transition: opacity 0.3s
+    }
+
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-operations {
+        display: flex;
+        align-self: stretch
+    }
+
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-operations-hidden {
+        position: absolute;
+        visibility: hidden;
+        pointer-events: none
+    }
+
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-more {
+        position: relative;
+        padding: 8px 16px;
+        background: transparent;
+        border: 0;
+        color: rgba(0, 0, 0, 0.88)
+    }
+
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-more::after,
+    :where(.css-1ce7347).ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-more::after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 5px;
+        transform: translateY(100%);
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-add:hover,
+    :where(.css-1ce7347).ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-add:hover {
+        color: #4096ff
+    }
+
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-add:active,
+    :where(.css-1ce7347).ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-add:active,
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-add:focus:not(:focus-visible),
+    :where(.css-1ce7347).ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-add:focus:not(:focus-visible) {
+        color: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-tabs>.ant-tabs-nav .ant-tabs-nav-add:focus-visible,
+    :where(.css-1ce7347).ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-add:focus-visible {
+        outline: 3px solid #91caff;
+        outline-offset: -3px;
+        transition: outline-offset 0s, outline 0s
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-ink-bar {
+        position: absolute;
+        background: #1677ff;
+        pointer-events: none
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab {
+        position: relative;
+        -webkit-touch-callout: none;
+        -webkit-tap-highlight-color: transparent;
+        display: inline-flex;
+        align-items: center;
+        font-size: 14px;
+        background: transparent;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.88)
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab-btn:focus:not(:focus-visible),
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab-remove:focus:not(:focus-visible),
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab-btn:active,
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab-remove:active {
+        color: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab-btn {
+        outline: none;
+        transition: all 0.3s
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab-remove:hover {
+        color: rgba(0, 0, 0, 0.88)
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab-remove:focus-visible {
+        outline: 3px solid #91caff;
+        outline-offset: 1px;
+        transition: outline-offset 0s, outline 0s
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab:hover {
+        color: #4096ff
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: #1677ff;
+        text-shadow: 0 0 0.25px currentcolor
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab.ant-tabs-tab-disabled .ant-tabs-tab-btn:focus,
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab.ant-tabs-tab-disabled .ant-tabs-remove:focus,
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab.ant-tabs-tab-disabled .ant-tabs-tab-btn:active,
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tab.ant-tabs-tab-disabled .ant-tabs-remove:active {
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-content {
+        position: relative;
+        width: 100%
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-content-holder {
+        flex: auto;
+        min-width: 0;
+        min-height: 0
+    }
+
+    :where(.css-1ce7347).ant-tabs .ant-tabs-tabpane:focus-visible {
+        outline: 3px solid #91caff;
+        outline-offset: 1px;
+        transition: outline-offset 0s, outline 0s
+    }

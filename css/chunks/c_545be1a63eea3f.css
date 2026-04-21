@@ -1,0 +1,118 @@
+    :where(.css-1ce7347)[class^="ant-form"]::before,
+    :where(.css-1ce7347)[class*=" ant-form"]::before,
+    :where(.css-1ce7347)[class^="ant-form"]::after,
+    :where(.css-1ce7347)[class*=" ant-form"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347)[class^="ant-form"] [class^="ant-form"]::before,
+    :where(.css-1ce7347)[class*=" ant-form"] [class^="ant-form"]::before,
+    :where(.css-1ce7347)[class^="ant-form"] [class*=" ant-form"]::before,
+    :where(.css-1ce7347)[class*=" ant-form"] [class*=" ant-form"]::before,
+    :where(.css-1ce7347)[class^="ant-form"] [class^="ant-form"]::after,
+    :where(.css-1ce7347)[class*=" ant-form"] [class^="ant-form"]::after,
+    :where(.css-1ce7347)[class^="ant-form"] [class*=" ant-form"]::after,
+    :where(.css-1ce7347)[class*=" ant-form"] [class*=" ant-form"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-form input[type="file"]:focus,
+    :where(.css-1ce7347).ant-form input[type="radio"]:focus,
+    :where(.css-1ce7347).ant-form input[type="checkbox"]:focus {
+        outline: 0;
+        box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1)
+    }
+
+    :where(.css-1ce7347).ant-form-item .ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+        display: inline-block;
+        margin-inline-end: 4px;
+        color: #ff4d4f;
+        font-size: 14px;
+        font-family: SimSun, sans-serif;
+        line-height: 1;
+        content: "*"
+    }
+
+    .ant-form-hide-required-mark :where(.css-1ce7347).ant-form-item .ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+        display: none
+    }
+
+    :where(.css-1ce7347).ant-form-item .ant-form-item-label>label::after {
+        content: ":";
+        position: relative;
+        margin-block: 0;
+        margin-inline-start: 2px;
+        margin-inline-end: 8px
+    }
+
+    :where(.css-1ce7347).ant-form-item .ant-form-item-label>label.ant-form-item-no-colon::after {
+        content: " "
+    }
+
+    :where(.css-1ce7347).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-label>label::after,
+    :where(.css-1ce7347).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-col-24.ant-form-item-label>label::after,
+    :where(.css-1ce7347).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-col-xl-24.ant-form-item-label>label::after {
+        visibility: hidden
+    }
+
+    @media (max-width:575px) {
+        :where(.css-1ce7347).ant-form-item .ant-form-item-label>label::after {
+            visibility: hidden
+        }
+
+        :where(.css-1ce7347).ant-form .ant-form-item:not(.ant-form-item-horizontal) .ant-col-xs-24.ant-form-item-label>label::after {
+            visibility: hidden
+        }
+    }
+
+    @media (max-width:767px) {
+        :where(.css-1ce7347).ant-form .ant-form-item:not(.ant-form-item-horizontal) .ant-col-sm-24.ant-form-item-label>label::after {
+            visibility: hidden
+        }
+    }
+
+    @media (max-width:991px) {
+        :where(.css-1ce7347).ant-form .ant-form-item:not(.ant-form-item-horizontal) .ant-col-md-24.ant-form-item-label>label::after {
+            visibility: hidden
+        }
+    }
+
+    @media (max-width:1199px) {
+        :where(.css-1ce7347).ant-form .ant-form-item:not(.ant-form-item-horizontal) .ant-col-lg-24.ant-form-item-label>label::after {
+            visibility: hidden
+        }
+    }
+
+    :where(.css-1ce7347).ant-form-item-vertical .ant-form-item-label>label::after,
+    :where(.css-1ce7347).ant-col-24.ant-form-item-label>label::after,
+    :where(.css-1ce7347).ant-col-xl-24.ant-form-item-label>label::after {
+        visibility: hidden
+    }
+
+    @media (max-width:575px) {
+        :where(.css-1ce7347).ant-form-item .ant-form-item-label>label::after {
+            visibility: hidden
+        }
+
+        :where(.css-1ce7347).ant-form-item .ant-col-xs-24.ant-form-item-label>label::after {
+            visibility: hidden
+        }
+    }
+
+    @media (max-width:767px) {
+        :where(.css-1ce7347).ant-form-item .ant-col-sm-24.ant-form-item-label>label::after {
+            visibility: hidden
+        }
+    }
+
+    @media (max-width:991px) {
+        :where(.css-1ce7347).ant-form-item .ant-col-md-24.ant-form-item-label>label::after {
+            visibility: hidden
+        }
+    }
+
+    @media (max-width:1199px) {
+        :where(.css-1ce7347).ant-form-item .ant-col-lg-24.ant-form-item-label>label::after {
+            visibility: hidden
+        }
+    }

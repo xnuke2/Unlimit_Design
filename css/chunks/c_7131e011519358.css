@@ -1,0 +1,30 @@
+    :where(.css-1ce7347).ant-popover .ant-popover-arrow::before {
+        position: absolute;
+        bottom: 0;
+        inset-inline-start: 0;
+        width: 16px;
+        height: 8px;
+        background: var(--antd-arrow-background-color);
+        clip-path: polygon(1.6568542494923806px 100%, 50% 1.6568542494923806px, 14.34314575050762px 100%, 1.6568542494923806px 100%);
+        clip-path: path("M 0 8 A 4 4 0 0 0 2.82842712474619 6.82842712474619 L 6.585786437626905 3.0710678118654755 A 2 2 0 0 1 9.414213562373096 3.0710678118654755 L 13.17157287525381 6.82842712474619 A 4 4 0 0 0 16 8 Z");
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-popover .ant-popover-arrow::after {
+        content: "";
+        position: absolute;
+        width: 8.970562748477143px;
+        height: 8.970562748477143px;
+        bottom: 0;
+        inset-inline: 0;
+        margin: auto;
+        border-radius: 0 0 2px 0;
+        transform: translateY(50%) rotate(-135deg);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+        z-index: 0;
+        background: transparent
+    }
+
+    :where(.css-1ce7347).ant-popover .ant-popover-arrow:before {
+        background: var(--antd-arrow-background-color)
+    }

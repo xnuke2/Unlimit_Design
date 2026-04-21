@@ -1,0 +1,57 @@
+    :where(.css-1ce7347)[class^="ant-float-btn"]::before,
+    :where(.css-1ce7347)[class*=" ant-float-btn"]::before,
+    :where(.css-1ce7347)[class^="ant-float-btn"]::after,
+    :where(.css-1ce7347)[class*=" ant-float-btn"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347)[class^="ant-float-btn"] [class^="ant-float-btn"]::before,
+    :where(.css-1ce7347)[class*=" ant-float-btn"] [class^="ant-float-btn"]::before,
+    :where(.css-1ce7347)[class^="ant-float-btn"] [class*=" ant-float-btn"]::before,
+    :where(.css-1ce7347)[class*=" ant-float-btn"] [class*=" ant-float-btn"]::before,
+    :where(.css-1ce7347)[class^="ant-float-btn"] [class^="ant-float-btn"]::after,
+    :where(.css-1ce7347)[class*=" ant-float-btn"] [class^="ant-float-btn"]::after,
+    :where(.css-1ce7347)[class^="ant-float-btn"] [class*=" ant-float-btn"]::after,
+    :where(.css-1ce7347)[class*=" ant-float-btn"] [class*=" ant-float-btn"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-float-btn-group-top>.ant-float-btn-group-wrap::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 16px;
+        bottom: -16px
+    }
+
+    :where(.css-1ce7347).ant-float-btn-group-bottom>.ant-float-btn-group-wrap::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 16px;
+        top: -16px
+    }
+
+    :where(.css-1ce7347).ant-float-btn-group-right>.ant-float-btn-group-wrap::after {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 100%;
+        left: -16px
+    }
+
+    :where(.css-1ce7347).ant-float-btn-group-left>.ant-float-btn-group-wrap::after {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 100%;
+        right: -16px
+    }
+
+    :where(.css-1ce7347).ant-float-btn-default .ant-float-btn-body:hover {
+        background-color: rgba(0, 0, 0, 0.06)
+    }
+
+    :where(.css-1ce7347).ant-float-btn-primary .ant-float-btn-body:hover {
+        background-color: #4096ff
+    }

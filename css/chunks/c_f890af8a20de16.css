@@ -1,0 +1,94 @@
+    :where(.css-1ce7347).ant-collapse::before,
+    :where(.css-1ce7347).ant-collapse::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-collapse [class^="ant-collapse"],
+    :where(.css-1ce7347).ant-collapse [class*=" ant-collapse"] {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-collapse [class^="ant-collapse"]::before,
+    :where(.css-1ce7347).ant-collapse [class*=" ant-collapse"]::before,
+    :where(.css-1ce7347).ant-collapse [class^="ant-collapse"]::after,
+    :where(.css-1ce7347).ant-collapse [class*=" ant-collapse"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-collapse {
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        list-style: none;
+        font-family: Nunito, sans-serif
+    }
+
+    :where(.css-1ce7347).ant-collapse>.ant-collapse-item>.ant-collapse-header {
+        position: relative;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        color: rgba(0, 0, 0, 0.88);
+        line-height: 1.5714285714285714;
+        cursor: pointer;
+        transition: all 0.3s, visibility 0s
+    }
+
+    :where(.css-1ce7347).ant-collapse>.ant-collapse-item>.ant-collapse-header:focus-visible {
+        outline: 3px solid #91caff;
+        outline-offset: 1px;
+        transition: outline-offset 0s, outline 0s
+    }
+
+    :where(.css-1ce7347).ant-collapse>.ant-collapse-item>.ant-collapse-header>.ant-collapse-header-text {
+        flex: auto
+    }
+
+    :where(.css-1ce7347).ant-collapse>.ant-collapse-item>.ant-collapse-header .ant-collapse-expand-icon {
+        height: 22px;
+        display: flex;
+        align-items: center;
+        padding-inline-end: 12px
+    }
+
+    :where(.css-1ce7347).ant-collapse>.ant-collapse-item>.ant-collapse-header .ant-collapse-arrow {
+        display: inline-flex;
+        align-items: center;
+        color: inherit;
+        font-style: normal;
+        line-height: 0;
+        text-align: center;
+        text-transform: none;
+        vertical-align: -0.125em;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 12px;
+        transition: transform 0.3s
+    }
+
+    :where(.css-1ce7347).ant-collapse>.ant-collapse-item>.ant-collapse-header .ant-collapse-arrow>* {
+        line-height: 1
+    }
+
+    :where(.css-1ce7347).ant-collapse>.ant-collapse-item>.ant-collapse-header .ant-collapse-arrow svg {
+        transition: transform 0.3s
+    }
+
+    :where(.css-1ce7347).ant-collapse>.ant-collapse-item>.ant-collapse-header .ant-collapse-header-text {
+        margin-inline-end: auto
+    }
+
+    :where(.css-1ce7347).ant-collapse-borderless>.ant-collapse-item:last-child,
+    :where(.css-1ce7347).ant-collapse-borderless>.ant-collapse-item:last-child .ant-collapse-header {
+        border-radius: 0
+    }
+
+    :where(.css-1ce7347).ant-collapse-borderless>.ant-collapse-item:last-child {
+        border-bottom: 0
+    }
+
+    :where(.css-1ce7347).ant-collapse-ghost {
+        border: 0
+    }

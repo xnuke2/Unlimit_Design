@@ -1,0 +1,11 @@
+    :where(.css-1ce7347).ant-statistic::before,
+    :where(.css-1ce7347).ant-statistic::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-statistic [class^="ant-statistic"]::before,
+    :where(.css-1ce7347).ant-statistic [class*=" ant-statistic"]::before,
+    :where(.css-1ce7347).ant-statistic [class^="ant-statistic"]::after,
+    :where(.css-1ce7347).ant-statistic [class*=" ant-statistic"]::after {
+        box-sizing: border-box
+    }

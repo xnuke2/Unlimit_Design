@@ -1,0 +1,123 @@
+    :where(.css-1ce7347)[class^="ant-input"],
+    :where(.css-1ce7347)[class*=" ant-input"] {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347)[class^="ant-input"]::before,
+    :where(.css-1ce7347)[class*=" ant-input"]::before,
+    :where(.css-1ce7347)[class^="ant-input"]::after,
+    :where(.css-1ce7347)[class*=" ant-input"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347)[class^="ant-input"] [class^="ant-input"]::before,
+    :where(.css-1ce7347)[class*=" ant-input"] [class^="ant-input"]::before,
+    :where(.css-1ce7347)[class^="ant-input"] [class*=" ant-input"]::before,
+    :where(.css-1ce7347)[class*=" ant-input"] [class*=" ant-input"]::before,
+    :where(.css-1ce7347)[class^="ant-input"] [class^="ant-input"]::after,
+    :where(.css-1ce7347)[class*=" ant-input"] [class^="ant-input"]::after,
+    :where(.css-1ce7347)[class^="ant-input"] [class*=" ant-input"]::after,
+    :where(.css-1ce7347)[class*=" ant-input"] [class*=" ant-input"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-input-group .ant-input:focus {
+        z-index: 1;
+        border-inline-end-width: 1px
+    }
+
+    :where(.css-1ce7347).ant-input-group .ant-input:hover {
+        z-index: 1;
+        border-inline-end-width: 1px
+    }
+
+    .ant-input-search-with-button :where(.css-1ce7347).ant-input-group .ant-input:hover {
+        z-index: 0
+    }
+
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact::before {
+        display: table;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact::after {
+        display: table;
+        clear: both;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact .ant-input-group-addon:not(:first-child):not(:last-child):hover,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact .ant-input-group-wrap:not(:first-child):not(:last-child):hover,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact>.ant-input:not(:first-child):not(:last-child):hover,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact .ant-input-group-addon:not(:first-child):not(:last-child):focus,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact .ant-input-group-wrap:not(:first-child):not(:last-child):focus,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact>.ant-input:not(:first-child):not(:last-child):focus {
+        z-index: 1
+    }
+
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact>.ant-select>.ant-select-selector:hover,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact>.ant-select-auto-complete .ant-input:hover,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact>.ant-cascader-picker .ant-input:hover,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact>.ant-input-group-wrapper .ant-input:hover,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact>.ant-select>.ant-select-selector:focus,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact>.ant-select-auto-complete .ant-input:focus,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact>.ant-cascader-picker .ant-input:focus,
+    :where(.css-1ce7347).ant-input-group.ant-input-group-compact>.ant-input-group-wrapper .ant-input:focus {
+        z-index: 1
+    }
+
+    :where(.css-1ce7347).ant-input-group-wrapper-outlined.ant-input-group-wrapper-disabled .ant-input-group-addon:hover:not([disabled]) {
+        border-color: #d9d9d9;
+        background-color: rgba(0, 0, 0, 0.04)
+    }
+
+    :where(.css-1ce7347).ant-input-group-wrapper-filled .ant-input-group .ant-input-filled:not(:focus):not(:focus-within):not(:first-child) {
+        border-inline-start: 1px solid rgba(5, 5, 5, 0.06)
+    }
+
+    :where(.css-1ce7347).ant-input-group-wrapper-filled .ant-input-group .ant-input-filled:not(:focus):not(:focus-within):not(:last-child) {
+        border-inline-end: 1px solid rgba(5, 5, 5, 0.06)
+    }
+
+    :where(.css-1ce7347).ant-input-search .ant-input:hover+.ant-input-group-addon .ant-input-search-button:not(.ant-btn-primary),
+    :where(.css-1ce7347).ant-input-search .ant-input:focus+.ant-input-group-addon .ant-input-search-button:not(.ant-btn-primary) {
+        border-inline-start-color: #4096ff
+    }
+
+    :where(.css-1ce7347).ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary):hover {
+        color: #4096ff
+    }
+
+    :where(.css-1ce7347).ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary):active {
+        color: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary).ant-btn-loading::before {
+        inset-inline-start: 0;
+        inset-inline-end: 0;
+        inset-block-start: 0;
+        inset-block-end: 0
+    }
+
+    :where(.css-1ce7347).ant-input-search .ant-input-search-button:hover,
+    :where(.css-1ce7347).ant-input-search .ant-input-search-button:focus {
+        z-index: 1
+    }
+
+    :where(.css-1ce7347).ant-input-search.ant-input-compact-item>.ant-input-group-addon .ant-input-search-button:hover,
+    :where(.css-1ce7347).ant-input-search.ant-input-compact-item>.ant-input:hover,
+    :where(.css-1ce7347).ant-input-search.ant-input-compact-item .ant-input-affix-wrapper:hover,
+    :where(.css-1ce7347).ant-input-search.ant-input-compact-item>.ant-input-group-addon .ant-input-search-button:focus,
+    :where(.css-1ce7347).ant-input-search.ant-input-compact-item>.ant-input:focus,
+    :where(.css-1ce7347).ant-input-search.ant-input-compact-item .ant-input-affix-wrapper:focus,
+    :where(.css-1ce7347).ant-input-search.ant-input-compact-item>.ant-input-group-addon .ant-input-search-button:active,
+    :where(.css-1ce7347).ant-input-search.ant-input-compact-item>.ant-input:active,
+    :where(.css-1ce7347).ant-input-search.ant-input-compact-item .ant-input-affix-wrapper:active {
+        z-index: 2
+    }
+
+    :where(.css-1ce7347).ant-input-compact-item:hover,
+    :where(.css-1ce7347).ant-input-compact-item:focus,
+    :where(.css-1ce7347).ant-input-compact-item:active {
+        z-index: 2
+    }

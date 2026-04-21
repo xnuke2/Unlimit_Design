@@ -1,0 +1,116 @@
+    :where(.css-1ce7347)[class^="ant-float-btn"]::before,
+    :where(.css-1ce7347)[class*=" ant-float-btn"]::before,
+    :where(.css-1ce7347)[class^="ant-float-btn"]::after,
+    :where(.css-1ce7347)[class*=" ant-float-btn"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347)[class*=" ant-float-btn"] [class^="ant-float-btn"] {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347)[class^="ant-float-btn"] [class^="ant-float-btn"]::before,
+    :where(.css-1ce7347)[class*=" ant-float-btn"] [class^="ant-float-btn"]::before,
+    :where(.css-1ce7347)[class^="ant-float-btn"] [class*=" ant-float-btn"]::before,
+    :where(.css-1ce7347)[class*=" ant-float-btn"] [class*=" ant-float-btn"]::before,
+    :where(.css-1ce7347)[class^="ant-float-btn"] [class^="ant-float-btn"]::after,
+    :where(.css-1ce7347)[class*=" ant-float-btn"] [class^="ant-float-btn"]::after,
+    :where(.css-1ce7347)[class^="ant-float-btn"] [class*=" ant-float-btn"]::after,
+    :where(.css-1ce7347)[class*=" ant-float-btn"] [class*=" ant-float-btn"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-float-btn-group-top>.ant-float-btn-group-wrap::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 16px;
+        bottom: -16px
+    }
+
+    :where(.css-1ce7347).ant-float-btn-group-bottom>.ant-float-btn-group-wrap::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 16px;
+        top: -16px
+    }
+
+    :where(.css-1ce7347).ant-float-btn-group-right>.ant-float-btn-group-wrap::after {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 100%;
+        left: -16px
+    }
+
+    :where(.css-1ce7347).ant-float-btn-group-left>.ant-float-btn-group-wrap::after {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 100%;
+        right: -16px
+    }
+
+    :where(.css-1ce7347).ant-float-btn {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: Nunito, sans-serif;
+        position: fixed;
+        cursor: pointer;
+        z-index: 1000;
+        display: block;
+        inset-inline-end: 24px;
+        bottom: 48px;
+        box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05)
+    }
+
+    :where(.css-1ce7347).ant-float-btn .ant-float-btn-body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    :where(.css-1ce7347).ant-float-btn .ant-float-btn-body .ant-float-btn-content {
+        overflow: hidden;
+        text-align: center;
+        min-height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2px 4px
+    }
+
+    :where(.css-1ce7347).ant-float-btn .ant-float-btn-body .ant-float-btn-content .ant-float-btn-icon {
+        text-align: center;
+        margin: auto;
+        width: 18px;
+        font-size: 18px;
+        line-height: 1
+    }
+
+    :where(.css-1ce7347).ant-float-btn-circle .ant-float-btn-body {
+        border-radius: 50%
+    }
+
+    :where(.css-1ce7347).ant-float-btn-default {
+        transition: background-color 0.2s
+    }
+
+    :where(.css-1ce7347).ant-float-btn-default .ant-float-btn-body {
+        background-color: #ffffff;
+        transition: background-color 0.2s
+    }
+
+    :where(.css-1ce7347).ant-float-btn-default .ant-float-btn-body:hover {
+        background-color: rgba(0, 0, 0, 0.06)
+    }
+
+    :where(.css-1ce7347).ant-float-btn-primary .ant-float-btn-body:hover {
+        background-color: #4096ff
+    }

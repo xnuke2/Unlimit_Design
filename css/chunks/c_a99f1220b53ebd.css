@@ -1,0 +1,70 @@
+    .ant-page-header {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        list-style: none;
+        position: relative;
+        padding-block: 6px;
+        padding-inline: 16px
+    }
+
+    .ant-page-header .ant-page-header-back {
+        margin-inline-end: 16px;
+        font-size: 16px;
+        line-height: 1
+    }
+
+    .ant-page-header .ant-page-header-back-button {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.88);
+        outline: none;
+        cursor: pointer;
+        transition: color 0.3s
+    }
+
+    .ant-page-header .ant-page-header-back-button:focus,
+    .ant-page-header .ant-page-header-back-button:hover {
+        color: #69b1ff
+    }
+
+    .ant-page-header .ant-page-header-back-button:active {
+        color: #0958d9
+    }
+
+    .ant-page-header .ant-page-header-heading {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .ant-page-header .ant-page-header-heading-left {
+        display: flex;
+        align-items: center;
+        margin-block: 4px;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+        overflow: hidden
+    }
+
+    .ant-page-header .ant-page-header-heading-title {
+        margin-inline-end: 12px;
+        margin-block-end: 0;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 20px;
+        line-height: 32px;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+
+    .ant-page-header .ant-page-header-heading-extra {
+        margin-block: 4px;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+        white-space: nowrap
+    }
+
+    .ant-page-header .ant-page-header-heading-extra>* {
+        white-space: unset
+    }

@@ -1,0 +1,11 @@
+    :where(.css-1ce7347).ant-skeleton::before,
+    :where(.css-1ce7347).ant-skeleton::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-skeleton [class^="ant-skeleton"]::before,
+    :where(.css-1ce7347).ant-skeleton [class*=" ant-skeleton"]::before,
+    :where(.css-1ce7347).ant-skeleton [class^="ant-skeleton"]::after,
+    :where(.css-1ce7347).ant-skeleton [class*=" ant-skeleton"]::after {
+        box-sizing: border-box
+    }

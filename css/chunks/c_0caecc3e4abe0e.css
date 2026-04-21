@@ -1,0 +1,22 @@
+    :where(.css-1ce7347).ant-app {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-app::before,
+    :where(.css-1ce7347).ant-app::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-app [class^="ant-app"]::before,
+    :where(.css-1ce7347).ant-app [class*=" ant-app"]::before,
+    :where(.css-1ce7347).ant-app [class^="ant-app"]::after,
+    :where(.css-1ce7347).ant-app [class*=" ant-app"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-app {
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        font-family: Nunito, sans-serif
+    }

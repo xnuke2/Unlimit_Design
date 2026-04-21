@@ -1,0 +1,11 @@
+    :where(.css-1ce7347).ant-affix::before,
+    :where(.css-1ce7347).ant-affix::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-affix [class^="ant-affix"]::before,
+    :where(.css-1ce7347).ant-affix [class*=" ant-affix"]::before,
+    :where(.css-1ce7347).ant-affix [class^="ant-affix"]::after,
+    :where(.css-1ce7347).ant-affix [class*=" ant-affix"]::after {
+        box-sizing: border-box
+    }

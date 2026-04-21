@@ -1,0 +1,180 @@
+    :where(.css-1ce7347).ant-col {
+        font-family: Nunito, sans-serif;
+        font-size: 14px
+    }
+
+    :where(.css-1ce7347).ant-col::before,
+    :where(.css-1ce7347).ant-col::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-col [class^="ant-col"],
+    :where(.css-1ce7347).ant-col [class*=" ant-col"] {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-col [class^="ant-col"]::before,
+    :where(.css-1ce7347).ant-col [class*=" ant-col"]::before,
+    :where(.css-1ce7347).ant-col [class^="ant-col"]::after,
+    :where(.css-1ce7347).ant-col [class*=" ant-col"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-col {
+        position: relative;
+        max-width: 100%;
+        min-height: 1px
+    }
+
+    :where(.css-1ce7347).ant-col-24 {
+        --ant-display: block;
+        display: var(--ant-display);
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+    :where(.css-1ce7347).ant-col-xs-24 {
+        --ant-display: block;
+        display: var(--ant-display);
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+    :where(.css-1ce7347).ant-col-xs-order-1 {
+        order: 1
+    }
+
+    @media (min-width:576px) {
+        :where(.css-1ce7347).ant-col-sm-24 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 100%;
+            max-width: 100%
+        }
+    }
+
+    @media (min-width:768px) {
+        :where(.css-1ce7347).ant-col-md-24 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 100%;
+            max-width: 100%
+        }
+
+        :where(.css-1ce7347).ant-col-md-12 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 50%;
+            max-width: 50%
+        }
+
+        :where(.css-1ce7347).ant-col-md-8 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 33.33333333333333%;
+            max-width: 33.33333333333333%
+        }
+
+        :where(.css-1ce7347).ant-col-md-6 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 25%;
+            max-width: 25%
+        }
+
+        :where(.css-1ce7347).ant-col-md-5 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 20.833333333333336%;
+            max-width: 20.833333333333336%
+        }
+
+        :where(.css-1ce7347).ant-col-md-3 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 12.5%;
+            max-width: 12.5%
+        }
+
+        :where(.css-1ce7347).ant-col-md-order-1 {
+            order: 1
+        }
+    }
+
+    @media (min-width:992px) {
+        :where(.css-1ce7347).ant-col-lg-24 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 100%;
+            max-width: 100%
+        }
+
+        :where(.css-1ce7347).ant-col-lg-16 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 66.66666666666666%;
+            max-width: 66.66666666666666%
+        }
+
+        :where(.css-1ce7347).ant-col-lg-8 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 33.33333333333333%;
+            max-width: 33.33333333333333%
+        }
+
+        :where(.css-1ce7347).ant-col-lg-6 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 25%;
+            max-width: 25%
+        }
+
+        :where(.css-1ce7347).ant-col-lg-5 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 20.833333333333336%;
+            max-width: 20.833333333333336%
+        }
+
+        :where(.css-1ce7347).ant-col-lg-3 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 12.5%;
+            max-width: 12.5%
+        }
+
+        :where(.css-1ce7347).ant-col-lg-order-0 {
+            order: 0
+        }
+    }
+
+    @media (min-width:1200px) {
+        :where(.css-1ce7347).ant-col-xl-20 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 83.33333333333334%;
+            max-width: 83.33333333333334%
+        }
+
+        :where(.css-1ce7347).ant-col-xl-6 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 25%;
+            max-width: 25%
+        }
+
+        :where(.css-1ce7347).ant-col-xl-5 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 20.833333333333336%;
+            max-width: 20.833333333333336%
+        }
+
+        :where(.css-1ce7347).ant-col-xl-4 {
+            --ant-display: block;
+            display: var(--ant-display);
+            flex: 0 0 16.666666666666664%;
+            max-width: 16.666666666666664%
+        }
+    }

@@ -1,0 +1,11 @@
+    :where(.css-1ce7347).ant-wave::before,
+    :where(.css-1ce7347).ant-wave::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-wave [class^="ant-wave"]::before,
+    :where(.css-1ce7347).ant-wave [class*=" ant-wave"]::before,
+    :where(.css-1ce7347).ant-wave [class^="ant-wave"]::after,
+    :where(.css-1ce7347).ant-wave [class*=" ant-wave"]::after {
+        box-sizing: border-box
+    }

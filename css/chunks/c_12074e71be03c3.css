@@ -1,0 +1,1208 @@
+    /*!
+ * jodit - Jodit is awesome and usefully wysiwyg editor with filebrowser
+ * Author: Chupurnov <chupurnov@gmail.com> (https://xdsoft.net/)
+ * Version: v3.24.7
+ * Url: https://xdsoft.net/jodit/
+ * License(s): MIT
+ */
+    .jodit-wysiwyg ::-moz-selection,
+    .jodit-wysiwyg::-moz-selection {
+        background: #b5d6fd;
+        color: #4c4c4c
+    }
+
+    .jodit-wysiwyg ::selection,
+    .jodit-wysiwyg::selection {
+        background: #b5d6fd;
+        color: #4c4c4c
+    }
+
+    .jodit-container:not(.jodit_inline) .jodit-wysiwyg jodit-media:before {
+        bottom: 0;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1
+    }
+
+    .jodit-form button:hover {
+        background-color: #ecebe9;
+        color: #4c4c4c
+    }
+
+    .jodit-form button:active {
+        background: #ecebe9;
+        color: #4c4c4c
+    }
+
+    .jodit .jodit-input:focus {
+        border-color: #66afe9;
+        outline: 0
+    }
+
+    .jodit-button:active,
+    .jodit-button:focus {
+        outline: 0
+    }
+
+    .jodit-switcher .jodit-switcher__slider:before {
+        background-color: #fff;
+        border-radius: 50%;
+        bottom: 4px;
+        content: "";
+        height: calc(32px - 4px*2);
+        left: 4px;
+        position: absolute;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s;
+        width: calc(32px - 4px*2)
+    }
+
+    input:checked+.jodit-switcher__slider {
+        background-color: #2196f3
+    }
+
+    input:checked+.jodit-switcher__slider:before {
+        -webkit-transform: translateX(calc(60px - 4px*2 - calc(32px - 4px*2)));
+        -ms-transform: translateX(calc(60px - 4px*2 - calc(32px - 4px*2)));
+        transform: translateX(calc(60px - 4px*2 - calc(32px - 4px*2)))
+    }
+
+    input:focus+.jodit-switcher__slider {
+        -webkit-box-shadow: 0 0 1px #2196f3;
+        box-shadow: 0 0 1px #2196f3
+    }
+
+    .jodit-button-group input[type=checkbox]:checked+button,
+    .jodit-button-group input[type=checkbox]:not(:checked)+button+button {
+        background-image: none;
+        -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, .3), 0 1px 2px rgba(0, 0, 0, .05);
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, .3), 0 1px 2px rgba(0, 0, 0, .05)
+    }
+
+    .jodit_text_icons .jodit_icon:first-letter {
+        text-transform: uppercase
+    }
+
+    @-webkit-keyframes a {
+        to {
+            -webkit-transform: rotate(1turn);
+            transform: rotate(1turn)
+        }
+    }
+
+    @keyframes a {
+        to {
+            -webkit-transform: rotate(1turn);
+            transform: rotate(1turn)
+        }
+    }
+
+    .jodit-ui-button-icon-text_context_menu .jodit-ui-button-icon-text__text:before {
+        border-left: 1px solid #dadada;
+        content: "";
+        height: 35px;
+        left: 0;
+        position: absolute;
+        top: calc(8px*-1)
+    }
+
+    .jodit-ui-button-variants_variant_default:hover:not([disabled]) {
+        background-color: #c9cdd1;
+        color: #212529
+    }
+
+    .jodit-ui-button-variants_variant_default:hover:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-ui-button-variants_variant_default:active:not([disabled]) {
+        background-color: #dae0e5;
+        color: #212529
+    }
+
+    .jodit-ui-button-variants_variant_default:active:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-ui-button-variants_variant_default:focus:not([disabled]) {
+        outline: 1px dashed #dae0e5
+    }
+
+    .jodit-ui-button-variants_variant_primary:hover:not([disabled]) {
+        background-color: #0069d9;
+        color: #fff
+    }
+
+    .jodit-ui-button-variants_variant_primary:hover:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button-variants_variant_primary:active:not([disabled]) {
+        background-color: #0062cc;
+        color: #fff
+    }
+
+    .jodit-ui-button-variants_variant_primary:active:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button-variants_variant_primary:focus:not([disabled]) {
+        outline: 1px dashed #0062cc
+    }
+
+    .jodit-ui-button-variants_variant_secondary:hover:not([disabled]) {
+        background-color: #c9cdd1;
+        color: #212529
+    }
+
+    .jodit-ui-button-variants_variant_secondary:hover:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-ui-button-variants_variant_secondary:active:not([disabled]) {
+        background-color: #dae0e5;
+        color: #212529
+    }
+
+    .jodit-ui-button-variants_variant_secondary:active:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-ui-button-variants_variant_secondary:focus:not([disabled]) {
+        outline: 1px dashed #dae0e5
+    }
+
+    .jodit-ui-button-variants_variant_success:hover:not([disabled]) {
+        background-color: #218838;
+        color: #fff
+    }
+
+    .jodit-ui-button-variants_variant_success:hover:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button-variants_variant_success:active:not([disabled]) {
+        background-color: #1e7e34;
+        color: #fff
+    }
+
+    .jodit-ui-button-variants_variant_success:active:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button-variants_variant_success:focus:not([disabled]) {
+        outline: 1px dashed #1e7e34
+    }
+
+    .jodit-ui-button-variants_variant_danger:hover:not([disabled]) {
+        background-color: #c82333;
+        color: #fff
+    }
+
+    .jodit-ui-button-variants_variant_danger:hover:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button-variants_variant_danger:active:not([disabled]) {
+        background-color: #bd2130;
+        color: #fff
+    }
+
+    .jodit-ui-button-variants_variant_danger:active:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button-variants_variant_danger:focus:not([disabled]) {
+        outline: 1px dashed #bd2130
+    }
+
+    .jodit-ui-button:focus-visible:not([disabled]) {
+        background-color: #dcdcdc;
+        opacity: 1;
+        outline: 0
+    }
+
+    .jodit-ui-button:hover:not([disabled]) {
+        background-color: #dcdcdc;
+        opacity: 1;
+        outline: 0
+    }
+
+    .jodit-ui-button:active:not([disabled]) {
+        background-color: hsla(0, 0%, 86%, .4);
+        outline: 0
+    }
+
+    .jodit-ui-button[aria-pressed=true]:hover:not([disabled]) {
+        background-color: hsla(0, 0%, 86%, .6)
+    }
+
+    .jodit-ui-button_context_menu .jodit-ui-button__text:before {
+        border-left: 1px solid #dadada;
+        content: "";
+        height: 35px;
+        left: 0;
+        position: absolute;
+        top: calc(8px*-1)
+    }
+
+    .jodit-ui-button:focus:not([disabled]) {
+        outline: 1px dashed #b5d6fd
+    }
+
+    .jodit-ui-button_variant_default:hover:not([disabled]) {
+        background-color: #c9cdd1;
+        color: #212529
+    }
+
+    .jodit-ui-button_variant_default:hover:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-ui-button_variant_default:active:not([disabled]) {
+        background-color: #dae0e5;
+        color: #212529
+    }
+
+    .jodit-ui-button_variant_default:active:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-ui-button_variant_default:focus:not([disabled]) {
+        outline: 1px dashed #dae0e5
+    }
+
+    .jodit-ui-button_variant_primary:hover:not([disabled]) {
+        background-color: #0069d9;
+        color: #fff
+    }
+
+    .jodit-ui-button_variant_primary:hover:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button_variant_primary:active:not([disabled]) {
+        background-color: #0062cc;
+        color: #fff
+    }
+
+    .jodit-ui-button_variant_primary:active:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button_variant_primary:focus:not([disabled]) {
+        outline: 1px dashed #0062cc
+    }
+
+    .jodit-ui-button_variant_secondary:hover:not([disabled]) {
+        background-color: #c9cdd1;
+        color: #212529
+    }
+
+    .jodit-ui-button_variant_secondary:hover:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-ui-button_variant_secondary:active:not([disabled]) {
+        background-color: #dae0e5;
+        color: #212529
+    }
+
+    .jodit-ui-button_variant_secondary:active:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-ui-button_variant_secondary:focus:not([disabled]) {
+        outline: 1px dashed #dae0e5
+    }
+
+    .jodit-ui-button_variant_success:hover:not([disabled]) {
+        background-color: #218838;
+        color: #fff
+    }
+
+    .jodit-ui-button_variant_success:hover:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button_variant_success:active:not([disabled]) {
+        background-color: #1e7e34;
+        color: #fff
+    }
+
+    .jodit-ui-button_variant_success:active:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button_variant_success:focus:not([disabled]) {
+        outline: 1px dashed #1e7e34
+    }
+
+    .jodit-ui-button_variant_danger:hover:not([disabled]) {
+        background-color: #c82333;
+        color: #fff
+    }
+
+    .jodit-ui-button_variant_danger:hover:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button_variant_danger:active:not([disabled]) {
+        background-color: #bd2130;
+        color: #fff
+    }
+
+    .jodit-ui-button_variant_danger:active:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-ui-button_variant_danger:focus:not([disabled]) {
+        outline: 1px dashed #bd2130
+    }
+
+    .jodit-ui-group_separated_true:not(:last-child):not(.jodit-ui-group_before-spacer_true):after {
+        border-left: 0;
+        border-right: 1px solid #dadada;
+        content: "";
+        cursor: default;
+        margin: 2px;
+        padding: 0
+    }
+
+    .jodit-dialog__header-button:hover {
+        background-color: #ecebe9
+    }
+
+    .jodit-toolbar__box:not(:empty) .jodit-toolbar-editor-collection:after {
+        background-color: #f9f9f9
+    }
+
+    .jodit-ui-message:active {
+        -webkit-transform: scale(.76);
+        -ms-transform: scale(.76);
+        transform: scale(.76)
+    }
+
+    .jodit-ui-input__input:focus {
+        outline: 0
+    }
+
+    .jodit-ui-input__clear:active {
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+
+    .jodit-ui-select__input:focus {
+        outline: 0
+    }
+
+    .jodit-ui-select__clear:active {
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+
+    .jodit-ui-text-area__input:focus {
+        outline: 0
+    }
+
+    .jodit-ui-text-area__clear:active {
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+
+    .jodit-ui-checkbox_switch_true .jodit-ui-checkbox__switch-slider:before {
+        background-color: #fff;
+        border-radius: 50%;
+        bottom: 4px;
+        content: "";
+        height: 26px;
+        left: 4px;
+        position: absolute;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s;
+        width: 26px
+    }
+
+    .jodit-ui-checkbox_switch_true.jodit-ui-checkbox_checked_true .jodit-ui-checkbox__switch-slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px)
+    }
+
+    @-webkit-keyframes b {
+        30% {
+            opacity: .6
+        }
+
+        60% {
+            opacity: 0
+        }
+
+        to {
+            opacity: .6
+        }
+    }
+
+    @keyframes b {
+        30% {
+            opacity: .6
+        }
+
+        60% {
+            opacity: 0
+        }
+
+        to {
+            opacity: .6
+        }
+    }
+
+    .jodit-progress-bar div:after {
+        -webkit-animation: b 2s ease-out 0s infinite;
+        animation: b 2s ease-out 0s infinite;
+        border-radius: 100%;
+        -webkit-box-shadow: #b91f1f 1px 0 6px 1px;
+        box-shadow: #b91f1f 1px 0 6px 1px;
+        content: "";
+        display: inline-block;
+        height: 2px;
+        opacity: .6;
+        position: absolute;
+        top: 0
+    }
+
+    .jodit-progress-bar div:before {
+        -webkit-animation: b 2s ease-out 0s infinite;
+        animation: b 2s ease-out 0s infinite;
+        border-radius: 100%;
+        -webkit-box-shadow: #b91f1f 1px 0 6px 1px;
+        box-shadow: #b91f1f 1px 0 6px 1px;
+        content: "";
+        display: inline-block;
+        height: 2px;
+        opacity: .6;
+        position: absolute;
+        top: 0
+    }
+
+    .jodit-progress-bar div:before {
+        clip: rect(-6px, 90px, 14px, -6px);
+        right: -80px;
+        width: 180px
+    }
+
+    .jodit-progress-bar div:after {
+        clip: rect(-6px, 22px, 14px, 8px);
+        right: 0;
+        width: 20px
+    }
+
+    .jodit-toolbar-collection_mode_horizontal:after {
+        background-color: #fff;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 1px;
+        left: 0;
+        position: absolute;
+        width: 100%
+    }
+
+    .jodit-toolbar-editor-collection_mode_horizontal:after {
+        background-color: #fff;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 1px;
+        left: 0;
+        position: absolute;
+        width: 100%
+    }
+
+    .jodit-toolbar-button_context_menu .jodit-toolbar-button__text:before {
+        border-left: 1px solid #dadada;
+        content: "";
+        height: 35px;
+        left: 0;
+        position: absolute;
+        top: calc(8px*-1)
+    }
+
+    .jodit-toolbar-button__button:focus-visible:not([disabled]) {
+        background-color: #dcdcdc;
+        opacity: 1;
+        outline: 0
+    }
+
+    .jodit-toolbar-button__button:hover:not([disabled]) {
+        background-color: #dcdcdc;
+        opacity: 1;
+        outline: 0
+    }
+
+    .jodit-toolbar-button__button:active:not([disabled]) {
+        background-color: hsla(0, 0%, 86%, .4);
+        outline: 0
+    }
+
+    .jodit-toolbar-button__button[aria-pressed=true]:hover:not([disabled]) {
+        background-color: hsla(0, 0%, 86%, .6)
+    }
+
+    .jodit-toolbar-button__trigger:focus-visible:not([disabled]) {
+        background-color: #dcdcdc;
+        opacity: 1;
+        outline: 0
+    }
+
+    .jodit-toolbar-button__trigger:hover:not([disabled]) {
+        background-color: #dcdcdc;
+        opacity: 1;
+        outline: 0
+    }
+
+    .jodit-toolbar-button__trigger:active:not([disabled]) {
+        background-color: hsla(0, 0%, 86%, .4);
+        outline: 0
+    }
+
+    .jodit-toolbar-button__trigger[aria-pressed=true]:hover:not([disabled]) {
+        background-color: hsla(0, 0%, 86%, .6)
+    }
+
+    .jodit-toolbar-button_with-trigger_true:hover:not([disabled]) {
+        border-color: #dadada
+    }
+
+    .jodit-toolbar-content:focus-visible:not([disabled]) {
+        background-color: #dcdcdc;
+        opacity: 1;
+        outline: 0
+    }
+
+    .jodit-toolbar-content:hover:not([disabled]) {
+        background-color: #dcdcdc;
+        opacity: 1;
+        outline: 0
+    }
+
+    .jodit-toolbar-content:active:not([disabled]) {
+        background-color: hsla(0, 0%, 86%, .4);
+        outline: 0
+    }
+
+    .jodit-toolbar-content[aria-pressed=true]:hover:not([disabled]) {
+        background-color: hsla(0, 0%, 86%, .6)
+    }
+
+    .jodit-toolbar-content_context_menu .jodit-toolbar-content__text:before {
+        border-left: 1px solid #dadada;
+        content: "";
+        height: 35px;
+        left: 0;
+        position: absolute;
+        top: calc(8px*-1)
+    }
+
+    .jodit-toolbar-content:focus:not([disabled]) {
+        outline: 1px dashed #b5d6fd
+    }
+
+    .jodit-toolbar-content_variant_default:hover:not([disabled]) {
+        background-color: #c9cdd1;
+        color: #212529
+    }
+
+    .jodit-toolbar-content_variant_default:hover:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-toolbar-content_variant_default:active:not([disabled]) {
+        background-color: #dae0e5;
+        color: #212529
+    }
+
+    .jodit-toolbar-content_variant_default:active:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-toolbar-content_variant_default:focus:not([disabled]) {
+        outline: 1px dashed #dae0e5
+    }
+
+    .jodit-toolbar-content_variant_primary:hover:not([disabled]) {
+        background-color: #0069d9;
+        color: #fff
+    }
+
+    .jodit-toolbar-content_variant_primary:hover:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-toolbar-content_variant_primary:active:not([disabled]) {
+        background-color: #0062cc;
+        color: #fff
+    }
+
+    .jodit-toolbar-content_variant_primary:active:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-toolbar-content_variant_primary:focus:not([disabled]) {
+        outline: 1px dashed #0062cc
+    }
+
+    .jodit-toolbar-content_variant_secondary:hover:not([disabled]) {
+        background-color: #c9cdd1;
+        color: #212529
+    }
+
+    .jodit-toolbar-content_variant_secondary:hover:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-toolbar-content_variant_secondary:active:not([disabled]) {
+        background-color: #dae0e5;
+        color: #212529
+    }
+
+    .jodit-toolbar-content_variant_secondary:active:not([disabled]) svg {
+        fill: #212529;
+        stroke: #212529
+    }
+
+    .jodit-toolbar-content_variant_secondary:focus:not([disabled]) {
+        outline: 1px dashed #dae0e5
+    }
+
+    .jodit-toolbar-content_variant_success:hover:not([disabled]) {
+        background-color: #218838;
+        color: #fff
+    }
+
+    .jodit-toolbar-content_variant_success:hover:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-toolbar-content_variant_success:active:not([disabled]) {
+        background-color: #1e7e34;
+        color: #fff
+    }
+
+    .jodit-toolbar-content_variant_success:active:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-toolbar-content_variant_success:focus:not([disabled]) {
+        outline: 1px dashed #1e7e34
+    }
+
+    .jodit-toolbar-content_variant_danger:hover:not([disabled]) {
+        background-color: #c82333;
+        color: #fff
+    }
+
+    .jodit-toolbar-content_variant_danger:hover:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-toolbar-content_variant_danger:active:not([disabled]) {
+        background-color: #bd2130;
+        color: #fff
+    }
+
+    .jodit-toolbar-content_variant_danger:active:not([disabled]) svg {
+        fill: #fff;
+        stroke: #fff
+    }
+
+    .jodit-toolbar-content_variant_danger:focus:not([disabled]) {
+        outline: 1px dashed #bd2130
+    }
+
+    .jodit-toolbar-content:hover:not([disabled]) {
+        background-color: transparent;
+        opacity: 1;
+        outline: 0
+    }
+
+    .jodit-filebrowser-preview__navigation:hover svg {
+        fill: #000
+    }
+
+    .jodit-image-editor__area .jodit-image-editor__croper i.jodit_bottomright:active,
+    .jodit-image-editor__area .jodit-image-editor__resizer i.jodit_bottomright:active {
+        border: 1px solid #ff0
+    }
+
+    .jodit-image-editor__area.jodit-image-editor__area_crop .jodit-image-editor__box:after {
+        background: hsla(0, 0%, 100%, .3);
+        bottom: 0;
+        content: "";
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1
+    }
+
+    .jodit-filebrowser-files_loading_true:before {
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%
+    }
+
+    .jodit-filebrowser-files_loading_true:after {
+        -webkit-animation: a 2s ease-out 0s infinite;
+        animation: a 2s ease-out 0s infinite;
+        background: url(data:image/png;base64,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)no-repeat 50%;
+        background-size: 100% 100%;
+        content: "";
+        display: inline-block;
+        height: 48px;
+        left: 50%;
+        margin-left: calc(48px/-2);
+        margin-top: calc(48px/-2);
+        opacity: .7;
+        position: absolute;
+        top: 50%;
+        vertical-align: middle;
+        width: 48px;
+        will-change: transform
+    }
+
+    .jodit-filebrowser-files::-webkit-scrollbar {
+        width: calc(8px/2)
+    }
+
+    .jodit-filebrowser-files::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3)
+    }
+
+    .jodit-filebrowser-files::-webkit-scrollbar-thumb {
+        background-color: #a9a9a9;
+        outline: 1px solid #708090
+    }
+
+    .jodit-filebrowser-files__item:hover {
+        border-color: #433b5c
+    }
+
+    .jodit-filebrowser-files__item:hover:not(.jodit-filebrowser-files__item_active_true) .jodit-filebrowser-files__item-info {
+        bottom: -100px
+    }
+
+    .jodit-filebrowser-files_view_list a:hover {
+        background-color: #433b5c
+    }
+
+    .jodit-filebrowser-files_view_list a:hover .jodit-filebrowser-files__item-info {
+        color: #fff;
+        text-shadow: none
+    }
+
+    .jodit-filebrowser-files_view_list a:before {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle
+    }
+
+    .jodit-filebrowser-tree_loading_true:before {
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%
+    }
+
+    .jodit-filebrowser-tree_loading_true:after {
+        -webkit-animation: a 2s ease-out 0s infinite;
+        animation: a 2s ease-out 0s infinite;
+        background: url(data:image/png;base64,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)no-repeat 50%;
+        background-size: 100% 100%;
+        content: "";
+        display: inline-block;
+        height: 48px;
+        left: 50%;
+        margin-left: calc(48px/-2);
+        margin-top: calc(48px/-2);
+        opacity: .7;
+        position: absolute;
+        top: 50%;
+        vertical-align: middle;
+        width: 48px;
+        will-change: transform
+    }
+
+    .jodit-filebrowser-tree::-webkit-scrollbar {
+        width: calc(8px/2)
+    }
+
+    .jodit-filebrowser-tree::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3)
+    }
+
+    .jodit-filebrowser-tree::-webkit-scrollbar-thumb {
+        background-color: #a9a9a9;
+        outline: 1px solid #708090
+    }
+
+    .jodit-filebrowser-tree_active_true::-webkit-scrollbar {
+        width: calc(8px/2)
+    }
+
+    .jodit-filebrowser-tree_active_true::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3)
+    }
+
+    .jodit-filebrowser-tree_active_true::-webkit-scrollbar-thumb {
+        background-color: hsla(0, 0%, 50%, .5);
+        outline: 1px solid #708090
+    }
+
+    .jodit-filebrowser-tree__item .jodit-icon_folder:hover {
+        background: #696969
+    }
+
+    .jodit-filebrowser-tree__item:hover {
+        background-color: #ecebe9
+    }
+
+    .jodit-filebrowser-tree__item:hover-title {
+        color: #222
+    }
+
+    .jodit-filebrowser-tree__item:hover i.jodit-icon_folder {
+        opacity: .6
+    }
+
+    .jodit-status-bar:before {
+        content: "";
+        -webkit-box-flex: 1;
+        -ms-flex: auto;
+        flex: auto;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1
+    }
+
+    .jodit-status-bar .jodit-status-bar__item a:hover {
+        background-color: #dadada;
+        text-decoration: none
+    }
+
+    .jodit-status-bar a.jodit-status-bar-link:hover {
+        background-color: transparent;
+        color: rgba(0, 0, 0, .75)
+    }
+
+    .jodit-status-bar a.jodit-status-bar-link:visited {
+        background-color: transparent;
+        color: rgba(0, 0, 0, .75)
+    }
+
+    .jodit-status-bar a.jodit-status-bar-link:hover {
+        text-decoration: underline
+    }
+
+    .jodit-drag-and-drop__file-box:hover {
+        background-color: #ecebe9
+    }
+
+    .jodit_uploadfile_button:hover {
+        background-color: #ecebe9
+    }
+
+    .jodit-about a:focus,
+    .jodit-about a:hover {
+        color: #23527c;
+        outline: 0;
+        text-decoration: underline
+    }
+
+    .jodit-add-new-line:after {
+        background-color: #6b6b6b;
+        content: "";
+        display: block;
+        height: 1px;
+        width: 100%
+    }
+
+    .jodit-add-new-line span:hover {
+        background: #ecebe9
+    }
+
+    .jodit-color-picker__color-item:hover {
+        border-color: #000
+    }
+
+    .jodit-color-picker__color-item:active {
+        border: 2px solid #1e88e5
+    }
+
+    .jodit-color-picker__native input[type=color]::-webkit-color-swatch-wrapper {
+        padding: 0
+    }
+
+    .jodit-color-picker__native input input[type=color]::-webkit-color-swatch {
+        border: none
+    }
+
+    .jodit-paste-storage>div:first-child a:focus {
+        outline: none
+    }
+
+    .jodit-table-resizer:after {
+        border: 0;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 0
+    }
+
+    .jodit-table-resizer_moved:after {
+        border-right: 1px solid moved
+    }
+
+    [data-jodit_iframe_wrapper]:after {
+        background: transparent;
+        bottom: 0;
+        content: "";
+        cursor: pointer;
+        display: block;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1
+    }
+
+    .jodit-resizer>div:hover {
+        background-color: #537ebb
+    }
+
+    .jodit-ui-search__box input:not(:focus)+input:not(:focus) {
+        border-top: 1px solid #dadada
+    }
+
+    .jodit-ui-search__buttons button:hover {
+        background-color: #ecebe9
+    }
+
+    .jodit-ui-search__buttons button:focus {
+        border: 1px solid rgba(181, 214, 253, .995)
+    }
+
+    .jodit-ui-search__buttons button:active {
+        border: 1px solid #b5d6fd;
+        -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95)
+    }
+
+    .jodit-ui-search_replace_true .jodit-ui-search__counts input:focus {
+        -webkit-box-shadow: inset 0 0 3px 0#dadada;
+        box-shadow: inset 0 0 3px 0#dadada
+    }
+
+    .jodit-ui-search_replace_true .jodit-ui-search__inputs input:focus {
+        -webkit-box-shadow: inset 0 0 3px 0#dadada;
+        box-shadow: inset 0 0 3px 0#dadada
+    }
+
+    .jodit-source__mirror::-moz-selection {
+        background: #bdbdbd
+    }
+
+    .jodit-source__mirror::selection {
+        background: #bdbdbd
+    }
+
+    .jodit-symbols__table td a:focus {
+        outline: 2px solid #dadada
+    }
+
+    .jodit-symbols__table td a:hover {
+        outline: 2px solid #dadada
+    }
+
+    .jodit-dialog_theme_dark .jodit-toolbar-collection_mode_horizontal:after {
+        background-color: #6b6b6b
+    }
+
+    .jodit-dialog_theme_dark .jodit-toolbar-editor-collection_mode_horizontal:after {
+        background-color: #6b6b6b
+    }
+
+    .jodit_theme_dark .jodit-toolbar-collection_mode_horizontal:after {
+        background-color: #6b6b6b
+    }
+
+    .jodit_theme_dark .jodit-toolbar-editor-collection_mode_horizontal:after {
+        background-color: #6b6b6b
+    }
+
+    .jodit-dialog_theme_dark .jodit-toolbar__box:not(:empty) .jodit-toolbar-editor-collection:after {
+        background-color: #6b6b6b
+    }
+
+    .jodit_theme_dark .jodit-toolbar__box:not(:empty) .jodit-toolbar-editor-collection:after {
+        background-color: #6b6b6b
+    }
+
+    .jodit-dialog_theme_dark .jodit-ui-group_separated_true:not(:last-child):not(.jodit-ui-group_before-spacer_true):after {
+        border-right-color: #6b6b6b
+    }
+
+    .jodit_theme_dark .jodit-ui-group_separated_true:not(:last-child):not(.jodit-ui-group_before-spacer_true):after {
+        border-right-color: #6b6b6b
+    }
+
+    .jodit-dialog_theme_dark .jodit-toolbar-button:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit-dialog_theme_dark .jodit-toolbar-button__button:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit-dialog_theme_dark .jodit-toolbar-button__trigger:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit-dialog_theme_dark .jodit-ui-button:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit-dialog_theme_dark .jodit-ui-button__button:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit-dialog_theme_dark .jodit-ui-button__trigger:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit_theme_dark .jodit-toolbar-button:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit_theme_dark .jodit-toolbar-button__button:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit_theme_dark .jodit-toolbar-button__trigger:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit_theme_dark .jodit-ui-button:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit_theme_dark .jodit-ui-button__button:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit_theme_dark .jodit-ui-button__trigger:hover:not([disabled]) {
+        background-color: #787878
+    }
+
+    .jodit-dialog_theme_dark .jodit-status-bar a.jodit-status-bar-link:hover {
+        color: #d1cccc
+    }
+
+    .jodit-dialog_theme_dark .jodit-status-bar a.jodit-status-bar-link:visited {
+        color: #d1cccc
+    }
+
+    .jodit-dialog_theme_dark .jodit-workplace+.jodit-status-bar:not(:empty) a.jodit-status-bar-link:hover {
+        color: #d1cccc
+    }
+
+    .jodit-dialog_theme_dark .jodit-workplace+.jodit-status-bar:not(:empty) a.jodit-status-bar-link:visited {
+        color: #d1cccc
+    }
+
+    .jodit_theme_dark .jodit-status-bar a.jodit-status-bar-link:hover {
+        color: #d1cccc
+    }
+
+    .jodit_theme_dark .jodit-status-bar a.jodit-status-bar-link:visited {
+        color: #d1cccc
+    }
+
+    .jodit_theme_dark .jodit-workplace+.jodit-status-bar:not(:empty) a.jodit-status-bar-link:hover {
+        color: #d1cccc
+    }
+
+    .jodit_theme_dark .jodit-workplace+.jodit-status-bar:not(:empty) a.jodit-status-bar-link:visited {
+        color: #d1cccc
+    }
+
+    .jodit-dialog_theme_dark .jodit-drag-and-drop__file-box:hover {
+        background-color: hsla(0, 0%, 41%, .75)
+    }
+
+    .jodit-dialog_theme_dark .jodit_uploadfile_button:hover {
+        background-color: hsla(0, 0%, 41%, .75)
+    }
+
+    .jodit_theme_dark .jodit-drag-and-drop__file-box:hover {
+        background-color: hsla(0, 0%, 41%, .75)
+    }
+
+    .jodit_theme_dark .jodit_uploadfile_button:hover {
+        background-color: hsla(0, 0%, 41%, .75)
+    }
+
+    .jodit-dialog_theme_dark .jodit-add-new-line:before {
+        border-top-color: #686767
+    }
+
+    .jodit_theme_dark .jodit-add-new-line:before {
+        border-top-color: #686767
+    }

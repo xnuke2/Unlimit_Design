@@ -1,0 +1,16 @@
+    :where(.css-1ce7347).ant-flex {
+        margin: 0;
+        padding: 0
+    }
+
+    :where(.css-1ce7347).ant-flex-vertical {
+        flex-direction: column
+    }
+
+    :where(.css-1ce7347).ant-flex-gap-small {
+        gap: 8px
+    }
+
+    :where(.css-1ce7347).ant-flex-align-stretch {
+        align-items: stretch
+    }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang=ru>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>В разработке — ГИС Наука (офлайн-копия)</title>
+<link rel=canonical href=v-razrabotke.html>
+<style>
+  :root { color-scheme: light; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; min-height: 100vh;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 24px; background: #eaedef; color: #1a1a1a; line-height: 1.5; }
+  main { max-width: 36rem; background: #fff; padding: 2rem 2.25rem; border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,.08); }
+  h1 { margin: 0 0 0.75rem; font-size: 1.5rem; color: #0067ad; }
+  p { margin: 0 0 1.25rem; }
+  a.button-home { display: inline-block; padding: 0.65rem 1.25rem; background: #0067ad; color: #fff !important;
+    text-decoration: none; border-radius: 8px; font-weight: 600; }
+  a.button-home:focus { outline: 3px solid #f53b59; outline-offset: 2px; }
+</style>
+</head>
+<body>
+<main id="main-content" tabindex="-1">
+  <h1 tabindex="-1">Страница в разработке</h1>
+  <p>Эта страница в офлайн-копии сайта ещё не реализована. Раздел находится в разработке.</p>
+  <p><a class="button-home" href="index.html">Вернуться на главную</a></p>
+</main>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var h = document.querySelector("main h1");
+    if (h) { h.focus({ preventScroll: true }); }
+  });
+</script>
+</body>
+</html>

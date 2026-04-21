@@ -1,0 +1,17 @@
+    :where(.css-1ce7347).ant-collapse::before,
+    :where(.css-1ce7347).ant-collapse::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-collapse [class^="ant-collapse"]::before,
+    :where(.css-1ce7347).ant-collapse [class*=" ant-collapse"]::before,
+    :where(.css-1ce7347).ant-collapse [class^="ant-collapse"]::after,
+    :where(.css-1ce7347).ant-collapse [class*=" ant-collapse"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-collapse>.ant-collapse-item>.ant-collapse-header:focus-visible {
+        outline: 3px solid #91caff;
+        outline-offset: 1px;
+        transition: outline-offset 0s, outline 0s
+    }

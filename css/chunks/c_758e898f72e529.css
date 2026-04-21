@@ -1,0 +1,106 @@
+    :where(.css-1ce7347).ant-typography {
+        font-family: Nunito, sans-serif;
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-typography::before,
+    :where(.css-1ce7347).ant-typography::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-typography [class^="ant-typography"]::before,
+    :where(.css-1ce7347).ant-typography [class*=" ant-typography"]::before,
+    :where(.css-1ce7347).ant-typography [class^="ant-typography"]::after,
+    :where(.css-1ce7347).ant-typography [class*=" ant-typography"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-typography {
+        word-break: break-word
+    }
+
+    a:where(.css-1ce7347).ant-typography.ant-typography-danger:active,
+    a:where(.css-1ce7347).ant-typography.ant-typography-danger:focus {
+        color: #d9363e
+    }
+
+    a:where(.css-1ce7347).ant-typography.ant-typography-danger:hover {
+        color: #ff7875
+    }
+
+    h3:where(.css-1ce7347).ant-typography {
+        margin-bottom: 0.5em;
+        color: rgba(0, 0, 0, 0.88);
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.3333333333333333
+    }
+
+    a:where(.css-1ce7347).ant-typography:focus-visible,
+    :where(.css-1ce7347).ant-typography a:focus-visible {
+        outline: 3px solid #91caff;
+        outline-offset: 1px;
+        transition: outline-offset 0s, outline 0s
+    }
+
+    a:where(.css-1ce7347).ant-typography:focus,
+    :where(.css-1ce7347).ant-typography a:focus,
+    a:where(.css-1ce7347).ant-typography:hover,
+    :where(.css-1ce7347).ant-typography a:hover {
+        color: #69b1ff
+    }
+
+    a:where(.css-1ce7347).ant-typography:active,
+    :where(.css-1ce7347).ant-typography a:active {
+        color: #0958d9
+    }
+
+    a:where(.css-1ce7347).ant-typography[disabled]:active,
+    :where(.css-1ce7347).ant-typography a[disabled]:active,
+    a:where(.css-1ce7347).ant-typography.ant-typography-disabled:active,
+    :where(.css-1ce7347).ant-typography a.ant-typography-disabled:active,
+    a:where(.css-1ce7347).ant-typography[disabled]:hover,
+    :where(.css-1ce7347).ant-typography a[disabled]:hover,
+    a:where(.css-1ce7347).ant-typography.ant-typography-disabled:hover,
+    :where(.css-1ce7347).ant-typography a.ant-typography-disabled:hover {
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    a:where(.css-1ce7347).ant-typography[disabled]:active,
+    :where(.css-1ce7347).ant-typography a[disabled]:active,
+    a:where(.css-1ce7347).ant-typography.ant-typography-disabled:active,
+    :where(.css-1ce7347).ant-typography a.ant-typography-disabled:active {
+        pointer-events: none
+    }
+
+    :where(.css-1ce7347).ant-typography .ant-typography-expand:focus-visible,
+    :where(.css-1ce7347).ant-typography .ant-typography-collapse:focus-visible,
+    :where(.css-1ce7347).ant-typography .ant-typography-edit:focus-visible,
+    :where(.css-1ce7347).ant-typography .ant-typography-copy:focus-visible {
+        outline: 3px solid #91caff;
+        outline-offset: 1px;
+        transition: outline-offset 0s, outline 0s
+    }
+
+    :where(.css-1ce7347).ant-typography .ant-typography-expand:focus,
+    :where(.css-1ce7347).ant-typography .ant-typography-collapse:focus,
+    :where(.css-1ce7347).ant-typography .ant-typography-edit:focus,
+    :where(.css-1ce7347).ant-typography .ant-typography-copy:focus,
+    :where(.css-1ce7347).ant-typography .ant-typography-expand:hover,
+    :where(.css-1ce7347).ant-typography .ant-typography-collapse:hover,
+    :where(.css-1ce7347).ant-typography .ant-typography-edit:hover,
+    :where(.css-1ce7347).ant-typography .ant-typography-copy:hover {
+        color: #69b1ff
+    }
+
+    :where(.css-1ce7347).ant-typography .ant-typography-expand:active,
+    :where(.css-1ce7347).ant-typography .ant-typography-collapse:active,
+    :where(.css-1ce7347).ant-typography .ant-typography-edit:active,
+    :where(.css-1ce7347).ant-typography .ant-typography-copy:active {
+        color: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-typography .ant-typography-copy-success:hover,
+    :where(.css-1ce7347).ant-typography .ant-typography-copy-success:focus {
+        color: #52c41a
+    }

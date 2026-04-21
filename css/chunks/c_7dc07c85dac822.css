@@ -1,0 +1,11 @@
+    :where(.css-1ce7347).ant-empty::before,
+    :where(.css-1ce7347).ant-empty::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-empty [class^="ant-empty"]::before,
+    :where(.css-1ce7347).ant-empty [class*=" ant-empty"]::before,
+    :where(.css-1ce7347).ant-empty [class^="ant-empty"]::after,
+    :where(.css-1ce7347).ant-empty [class*=" ant-empty"]::after {
+        box-sizing: border-box
+    }

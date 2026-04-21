@@ -1,0 +1,354 @@
+    :where(.css-1ce7347)[class^="ant-input-number"]::before,
+    :where(.css-1ce7347)[class*=" ant-input-number"]::before,
+    :where(.css-1ce7347)[class^="ant-input-number"]::after,
+    :where(.css-1ce7347)[class*=" ant-input-number"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347)[class^="ant-input-number"] [class^="ant-input-number"],
+    :where(.css-1ce7347)[class*=" ant-input-number"] [class^="ant-input-number"] {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347)[class^="ant-input-number"] [class^="ant-input-number"]::before,
+    :where(.css-1ce7347)[class*=" ant-input-number"] [class^="ant-input-number"]::before,
+    :where(.css-1ce7347)[class^="ant-input-number"] [class*=" ant-input-number"]::before,
+    :where(.css-1ce7347)[class*=" ant-input-number"] [class*=" ant-input-number"]::before,
+    :where(.css-1ce7347)[class^="ant-input-number"] [class^="ant-input-number"]::after,
+    :where(.css-1ce7347)[class*=" ant-input-number"] [class^="ant-input-number"]::after,
+    :where(.css-1ce7347)[class^="ant-input-number"] [class*=" ant-input-number"]::after,
+    :where(.css-1ce7347)[class*=" ant-input-number"] [class*=" ant-input-number"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-input-number {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        list-style: none;
+        font-family: Nunito, sans-serif;
+        position: relative;
+        display: inline-block;
+        min-width: 0;
+        transition: all 0.2s
+    }
+
+    :where(.css-1ce7347).ant-input-number::-moz-placeholder {
+        opacity: 1
+    }
+
+    :where(.css-1ce7347).ant-input-number::placeholder {
+        color: rgba(0, 0, 0, 0.25);
+        user-select: none
+    }
+
+    :where(.css-1ce7347).ant-input-number:placeholder-shown {
+        text-overflow: ellipsis
+    }
+
+    :where(.css-1ce7347).ant-input-number-outlined {
+        background: #ffffff;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #d9d9d9
+    }
+
+    :where(.css-1ce7347).ant-input-number-outlined:hover {
+        border-color: #4096ff;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-outlined:focus,
+    :where(.css-1ce7347).ant-input-number-outlined:focus-within {
+        border-color: #1677ff;
+        box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
+        outline: 0;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-outlined.ant-input-number-disabled:hover:not([disabled]),
+    :where(.css-1ce7347).ant-input-number-outlined[disabled]:hover:not([disabled]) {
+        border-color: #d9d9d9;
+        background-color: rgba(0, 0, 0, 0.04)
+    }
+
+    :where(.css-1ce7347).ant-input-number-outlined.ant-input-number-status-error:not(.ant-input-number-disabled):hover {
+        border-color: #ffa39e;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-outlined.ant-input-number-status-error:not(.ant-input-number-disabled):focus,
+    :where(.css-1ce7347).ant-input-number-outlined.ant-input-number-status-error:not(.ant-input-number-disabled):focus-within {
+        border-color: #ff4d4f;
+        box-shadow: 0 0 0 2px rgba(255, 38, 5, 0.06);
+        outline: 0;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-outlined.ant-input-number-status-warning:not(.ant-input-number-disabled):hover {
+        border-color: #ffd666;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-outlined.ant-input-number-status-warning:not(.ant-input-number-disabled):focus,
+    :where(.css-1ce7347).ant-input-number-outlined.ant-input-number-status-warning:not(.ant-input-number-disabled):focus-within {
+        border-color: #faad14;
+        box-shadow: 0 0 0 2px rgba(255, 215, 5, 0.1);
+        outline: 0;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-filled:hover {
+        background: rgba(0, 0, 0, 0.06)
+    }
+
+    :where(.css-1ce7347).ant-input-number-filled:focus,
+    :where(.css-1ce7347).ant-input-number-filled:focus-within {
+        outline: 0;
+        border-color: #1677ff;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-filled.ant-input-number-disabled:hover:not([disabled]),
+    :where(.css-1ce7347).ant-input-number-filled[disabled]:hover:not([disabled]) {
+        border-color: #d9d9d9;
+        background-color: rgba(0, 0, 0, 0.04)
+    }
+
+    :where(.css-1ce7347).ant-input-number-filled.ant-input-number-status-error:not(.ant-input-number-disabled):hover {
+        background: #fff1f0
+    }
+
+    :where(.css-1ce7347).ant-input-number-filled.ant-input-number-status-error:not(.ant-input-number-disabled):focus,
+    :where(.css-1ce7347).ant-input-number-filled.ant-input-number-status-error:not(.ant-input-number-disabled):focus-within {
+        outline: 0;
+        border-color: #ff4d4f;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-filled.ant-input-number-status-warning:not(.ant-input-number-disabled):hover {
+        background: #fff1b8
+    }
+
+    :where(.css-1ce7347).ant-input-number-filled.ant-input-number-status-warning:not(.ant-input-number-disabled):focus,
+    :where(.css-1ce7347).ant-input-number-filled.ant-input-number-status-warning:not(.ant-input-number-disabled):focus-within {
+        outline: 0;
+        border-color: #faad14;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-filled:focus-within .ant-input-number-handler-wrap {
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-underlined:hover {
+        border-color: transparent transparent #d9d9d9 transparent;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-underlined:focus,
+    :where(.css-1ce7347).ant-input-number-underlined:focus-within {
+        border-color: transparent transparent #d9d9d9 transparent;
+        outline: 0;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-underlined.ant-input-number-disabled:hover,
+    :where(.css-1ce7347).ant-input-number-underlined[disabled]:hover {
+        border-color: #d9d9d9
+    }
+
+    :where(.css-1ce7347).ant-input-number-underlined.ant-input-number-status-error:not(.ant-input-number-disabled):hover {
+        border-color: transparent transparent #ff4d4f transparent;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-underlined.ant-input-number-status-error:not(.ant-input-number-disabled):focus,
+    :where(.css-1ce7347).ant-input-number-underlined.ant-input-number-status-error:not(.ant-input-number-disabled):focus-within {
+        border-color: transparent transparent #ff4d4f transparent;
+        outline: 0;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-underlined.ant-input-number-status-warning:not(.ant-input-number-disabled):hover {
+        border-color: transparent transparent #faad14 transparent;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-underlined.ant-input-number-status-warning:not(.ant-input-number-disabled):focus,
+    :where(.css-1ce7347).ant-input-number-underlined.ant-input-number-status-warning:not(.ant-input-number-disabled):focus-within {
+        border-color: transparent transparent #faad14 transparent;
+        outline: 0;
+        background-color: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-input-number-borderless:focus,
+    :where(.css-1ce7347).ant-input-number-borderless:focus-within {
+        outline: none
+    }
+
+    :where(.css-1ce7347).ant-input-number-group .ant-input-number:focus {
+        z-index: 1;
+        border-inline-end-width: 1px
+    }
+
+    :where(.css-1ce7347).ant-input-number-group .ant-input-number:hover {
+        z-index: 1;
+        border-inline-end-width: 1px
+    }
+
+    .ant-input-number-search-with-button :where(.css-1ce7347).ant-input-number-group .ant-input-number:hover {
+        z-index: 0
+    }
+
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact::before {
+        display: table;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact::after {
+        display: table;
+        clear: both;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact .ant-input-number-group-addon:not(:first-child):not(:last-child):hover,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact .ant-input-number-group-wrap:not(:first-child):not(:last-child):hover,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact>.ant-input-number:not(:first-child):not(:last-child):hover,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact .ant-input-number-group-addon:not(:first-child):not(:last-child):focus,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact .ant-input-number-group-wrap:not(:first-child):not(:last-child):focus,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact>.ant-input-number:not(:first-child):not(:last-child):focus {
+        z-index: 1
+    }
+
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact>.ant-select>.ant-select-selector:hover,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact>.ant-select-auto-complete .ant-input-number:hover,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact>.ant-cascader-picker .ant-input-number:hover,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact>.ant-input-number-group-wrapper .ant-input-number:hover,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact>.ant-select>.ant-select-selector:focus,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact>.ant-select-auto-complete .ant-input-number:focus,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact>.ant-cascader-picker .ant-input-number:focus,
+    :where(.css-1ce7347).ant-input-number-group.ant-input-number-group-compact>.ant-input-number-group-wrapper .ant-input-number:focus {
+        z-index: 1
+    }
+
+    :where(.css-1ce7347).ant-input-number-group-wrapper-outlined.ant-input-number-group-wrapper-disabled .ant-input-number-group-addon:hover:not([disabled]) {
+        border-color: #d9d9d9;
+        background-color: rgba(0, 0, 0, 0.04)
+    }
+
+    :where(.css-1ce7347).ant-input-number-group-wrapper-filled .ant-input-number-group .ant-input-number-filled:not(:focus):not(:focus-within):not(:first-child) {
+        border-inline-start: 1px solid rgba(5, 5, 5, 0.06)
+    }
+
+    :where(.css-1ce7347).ant-input-number-group-wrapper-filled .ant-input-number-group .ant-input-number-filled:not(:focus):not(:focus-within):not(:last-child) {
+        border-inline-end: 1px solid rgba(5, 5, 5, 0.06)
+    }
+
+    :where(.css-1ce7347).ant-input-number .ant-input-number-input {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 4px 11px;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: inherit;
+        line-height: 1.5714285714285714;
+        list-style: none;
+        font-family: Nunito, sans-serif;
+        width: 100%;
+        text-align: start;
+        background-color: transparent;
+        border: 0;
+        border-radius: 6px;
+        outline: 0;
+        transition: all 0.2s linear;
+        appearance: textfield
+    }
+
+    :where(.css-1ce7347).ant-input-number .ant-input-number-input::-moz-placeholder {
+        opacity: 1
+    }
+
+    :where(.css-1ce7347).ant-input-number .ant-input-number-input::placeholder {
+        color: rgba(0, 0, 0, 0.25);
+        user-select: none
+    }
+
+    :where(.css-1ce7347).ant-input-number .ant-input-number-input:placeholder-shown {
+        text-overflow: ellipsis
+    }
+
+    :where(.css-1ce7347).ant-input-number .ant-input-number-input[type="number"]::-webkit-inner-spin-button,
+    :where(.css-1ce7347).ant-input-number .ant-input-number-input[type="number"]::-webkit-outer-spin-button {
+        margin: 0;
+        webkit-appearance: none;
+        appearance: none
+    }
+
+    :where(.css-1ce7347).ant-input-number:hover .ant-input-number-handler-wrap {
+        width: 22px;
+        opacity: 1
+    }
+
+    :where(.css-1ce7347).ant-input-number .ant-input-number-handler:active {
+        background: rgba(0, 0, 0, 0.02)
+    }
+
+    :where(.css-1ce7347).ant-input-number .ant-input-number-handler:hover {
+        height: 60%
+    }
+
+    :where(.css-1ce7347).ant-input-number .ant-input-number-handler:hover .ant-input-number-handler-up-inner,
+    :where(.css-1ce7347).ant-input-number .ant-input-number-handler:hover .ant-input-number-handler-down-inner {
+        color: #1677ff
+    }
+
+    .ant-input-number-handler-up-disabled:hover :where(.css-1ce7347).ant-input-number-handler-up-inner,
+    .ant-input-number-handler-down-disabled:hover :where(.css-1ce7347).ant-input-number-handler-down-inner {
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-input-number-affix-wrapper::-moz-placeholder {
+        opacity: 1
+    }
+
+    :where(.css-1ce7347).ant-input-number-affix-wrapper::placeholder {
+        color: rgba(0, 0, 0, 0.25);
+        user-select: none
+    }
+
+    :where(.css-1ce7347).ant-input-number-affix-wrapper:placeholder-shown {
+        text-overflow: ellipsis
+    }
+
+    :where(.css-1ce7347).ant-input-number-affix-wrapper:not(.ant-input-number-disabled):hover {
+        z-index: 1
+    }
+
+    :where(.css-1ce7347).ant-input-number-affix-wrapper:focus {
+        z-index: 1
+    }
+
+    :where(.css-1ce7347).ant-input-number-affix-wrapper::before {
+        display: inline-block;
+        width: 0;
+        visibility: hidden;
+        content: " "
+    }
+
+    :where(.css-1ce7347).ant-input-number-affix-wrapper:hover .ant-input-number-handler-wrap {
+        width: 22px;
+        opacity: 1
+    }
+
+    :where(.css-1ce7347).ant-input-number-affix-wrapper:not(.ant-input-number-affix-wrapper-without-controls):hover .ant-input-number-suffix {
+        margin-inline-end: 33px
+    }
+
+    :where(.css-1ce7347).ant-input-number-compact-item:hover,
+    :where(.css-1ce7347).ant-input-number-compact-item:focus,
+    :where(.css-1ce7347).ant-input-number-compact-item:active {
+        z-index: 2
+    }

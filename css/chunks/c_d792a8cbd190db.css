@@ -1,0 +1,101 @@
+    .aggregator__layout-content {
+        background-color: #fff;
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+
+    .aggregator__layout-content .page-container {
+        width: 100%;
+        max-width: 1470px;
+        margin: 0 auto;
+        padding: 0 20px
+    }
+
+    .aggregator__layout-content .ant-card-body {
+        padding: 12px
+    }
+
+    .aggregator__layout-content .ant-form-item-hidden {
+        display: none !important
+    }
+
+    .aggregator__button_danger:hover {
+        color: #fff;
+        background: #ff7875;
+        border-color: #ff4d4f
+    }
+
+    .aggregator__button-icon:hover {
+        background: 0 0
+    }
+
+    .aggregator__link-button:hover {
+        cursor: pointer
+    }
+
+    .aggregator-filter-measure-form__general-funding-from .ant-form-item-label {
+        overflow: visible
+    }
+
+    .aggregator-filter-measure-form__general-funding-from .ant-form-item-label label {
+        white-space: nowrap
+    }
+
+    .aggregator__collapse .ant-collapse-header {
+        display: flex !important
+    }
+
+    .aggregator__collapse_ghost,
+    .aggregator__collapse_ghost .ant-collapse-header {
+        background-color: #fff
+    }
+
+    .aggregator-button__favorite:hover {
+        background: 0 0
+    }
+
+    .aggregator-form-block__disabled:after {
+        content: "";
+        background-color: rgba(217, 217, 217, .3);
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0
+    }
+
+    .aggregator-navigator-list-pagination .ant-pagination-options .ant-select {
+        z-index: 2 !important
+    }
+
+    .navigator-recommendations__card {
+        height: 100%;
+        padding: 8px
+    }
+
+    .navigator-recommendations__authorization-suggest {
+        background-color: rgba(22, 119, 255, .1)
+    }
+
+    .navigator-recommendations__authorization-suggest .ant-card-body {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        display: flex
+    }
+
+    .navigator-recommendations__authorization-suggest-title {
+        margin-bottom: 0;
+        font-size: 16px;
+        font-weight: 700;
+        color: #467cb3 !important
+    }
+
+    .navigator-recommendations__link {
+        font-size: 16px;
+        font-weight: 700;
+        color: #467cb3 !important
+    }

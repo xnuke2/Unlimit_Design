@@ -1,0 +1,83 @@
+    .ace_dragging .ace_scroller:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+        background: rgba(250, 250, 250, 0.01);
+        z-index: 1000
+    }
+
+    .ace_dragging.ace_dark .ace_scroller:before {
+        background: rgba(0, 0, 0, 0.01)
+    }
+
+    @keyframes blink-ace-animate {
+
+        from,
+        to {
+            opacity: 1
+        }
+
+        60% {
+            opacity: 0
+        }
+    }
+
+    @keyframes blink-ace-animate-smooth {
+
+        from,
+        to {
+            opacity: 1
+        }
+
+        45% {
+            opacity: 1
+        }
+
+        60% {
+            opacity: 0
+        }
+
+        85% {
+            opacity: 0
+        }
+    }
+
+    .ace_fold:hover {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII=), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACBJREFUeNpi+P//fz4TAwPDZxDxD5X4i5fLMEwJgAADAEPVDbjNw87ZAAAAAElFTkSuQmCC)
+    }
+
+    .ace_fold-widget:hover {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7)
+    }
+
+    .ace_fold-widget:active {
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.05);
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8)
+    }
+
+    .ace_dark .ace_fold-widget:hover {
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+        background-color: rgba(255, 255, 255, 0.1)
+    }
+
+    .ace_dark .ace_fold-widget:active {
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2)
+    }
+
+    .ace_inline_button:hover {
+        border-color: gray;
+        background: rgba(200, 200, 200, 0.2);
+        display: inline-block;
+        pointer-events: auto
+    }
+
+    .ace_fade-fold-widgets:hover .ace_fold-widget {
+        transition: opacity 0.05s ease 0.05s;
+        opacity: 1
+    }

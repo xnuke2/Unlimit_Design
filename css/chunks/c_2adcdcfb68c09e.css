@@ -1,0 +1,73 @@
+    .aggregator__layout-content {
+        background-color: #fff;
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+
+    .aggregator__layout-content .page-container {
+        width: 100%;
+        max-width: 1470px;
+        margin: 0 auto;
+        padding: 0 20px
+    }
+
+    .aggregator__layout-content .ant-tabs-left .ant-tabs-ink-bar {
+        height: 38px !important
+    }
+
+    .aggregator__button_danger:hover {
+        color: #fff;
+        background: #ff7875;
+        border-color: #ff4d4f
+    }
+
+    .aggregator__button-icon:hover {
+        background: 0 0
+    }
+
+    .aggregator__link-button:hover {
+        cursor: pointer
+    }
+
+    .aggregator-button__favorite:hover {
+        background: 0 0
+    }
+
+    .aggregator-form-block__disabled:after {
+        content: "";
+        background-color: rgba(217, 217, 217, .3);
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0
+    }
+
+    .aggregator-support-measure-passport__content .ant-col,
+    .aggregator-tabs.ant-tabs-left .ant-tabs-nav-list>.ant-tabs-tab>.ant-tabs-tab-btn,
+    .aggregator-tabs.ant-tabs-left .ant-tabs-nav-list>.ant-tabs-tab.ant-tabs-tab-active>.ant-tabs-tab-btn {
+        font-size: 16px
+    }
+
+    .aggregator-button-grade {
+        align-items: center;
+        margin: 5px;
+        display: flex
+    }
+
+    .aggregator__joditor-content .jodit-container {
+        all: unset;
+        border: none !important
+    }
+
+    .aggregator__joditor-content .jodit-workplace {
+        border: none !important;
+        min-height: fit-content !important
+    }
+
+    .aggregator__joditor-content .jodit-wysiwyg {
+        min-height: fit-content !important;
+        padding: 0 !important
+    }

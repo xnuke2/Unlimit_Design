@@ -1,0 +1,86 @@
+@import "../chunks/c_ae5ead65781be0.css";
+@import "../chunks/c_44392b7213b844.css";
+@import "../chunks/c_718acfb5f97e4e.css";
+@import "../chunks/c_d27331f65442a4.css";
+@import "../chunks/c_21b019b45e4685.css";
+@import "../chunks/c_bf9abee7cbeffd.css";
+@import "../chunks/c_ed5a6a0233916e.css";
+@import "../chunks/c_899d7eb33a15ea.css";
+@import "../chunks/c_ea225112af658c.css";
+@import "../chunks/c_8beea79b8ab495.css";
+@import "../chunks/c_63498808f26c3e.css";
+@import "../chunks/c_74e6cd723cc41f.css";
+@import "../chunks/c_e7692f8ca5388b.css";
+@import "../chunks/c_633c9f8d259f44.css";
+@import "../chunks/c_6dadf80f72a622.css";
+@import "../chunks/c_1e3f32fbabb437.css";
+@import "../chunks/c_c85bdc7d1aa873.css";
+@import "../chunks/c_b1993b935983ea.css";
+@import "../chunks/c_c5635c984c51c6.css";
+@import "../chunks/c_c0848ce48040f0.css";
+@import "../chunks/c_dfa1ae01deb496.css";
+@import "../chunks/c_0460350b56bb26.css";
+@import "../chunks/c_cf2c1dea987768.css";
+@import "../chunks/c_054f8fc37bc30d.css";
+@import "../chunks/c_2dd485dad0bbd1.css";
+@import "../chunks/c_343d39bb600289.css";
+@import "../chunks/c_31a78c8fd892fc.css";
+@import "../chunks/c_621afce7be6858.css";
+@import "../chunks/c_37f293d6cd5d2c.css";
+@import "../chunks/c_6ee7d158a86b5a.css";
+@import "../chunks/c_8cf30e357be7e6.css";
+@import "../chunks/c_73a38445937a72.css";
+@import "../chunks/c_69919712771c91.css";
+@import "../chunks/c_84861171b6524d.css";
+@import "../chunks/c_bfa7f9cc663e93.css";
+@import "../chunks/c_2fcbe1b20d9039.css";
+@import "../chunks/c_0caecc3e4abe0e.css";
+@import "../chunks/c_e8f4f04cf513dc.css";
+@import "../chunks/c_7faa1d53897983.css";
+@import "../chunks/c_75dd69a923138b.css";
+@import "../chunks/c_ad9995b0760e7e.css";
+@import "../chunks/c_a991845beb17f5.css";
+@import "../chunks/c_9d161b38b21820.css";
+@import "../chunks/c_06c2b925dd86f1.css";
+@import "../chunks/c_4d4e32fee9c4fd.css";
+@import "../chunks/c_ae2c842f5f50ac.css";
+@import "../chunks/c_64031f07755806.css";
+@import "../chunks/c_740c0a292f5326.css";
+@import "../chunks/c_a6ce0d0ec3028d.css";
+@import "../chunks/c_520a8377ba7c49.css";
+@import "../chunks/c_83a0a00e0a2a36.css";
+@import "../chunks/c_0e147d89b99d5e.css";
+@import "../chunks/c_6e8c7cadf78cb5.css";
+@import "../chunks/c_4dcf48aa37b3ef.css";
+
+/* Горизонтальное меню должно перекрывать блок глобального поиска (раньше у .mainContent и .globalSearchHeader был один z-index). */
+.affixMenu {
+    position: relative;
+    z-index: 40;
+}
+.affixMenu .mainMenu {
+    z-index: 40;
+}
+.ant-layout-content .mainContent {
+    z-index: 1;
+}
+.globalSearchHeader {
+    z-index: 1;
+    margin-top: 12px !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+h3.chartLabel {
+    margin: 0;
+}

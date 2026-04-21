@@ -1,0 +1,44 @@
+    :where(.css-1ce7347).ant-layout {
+        font-family: Nunito, sans-serif;
+        font-size: 14px
+    }
+
+    :where(.css-1ce7347).ant-layout::before,
+    :where(.css-1ce7347).ant-layout::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-layout [class^="ant-layout"] {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-layout [class^="ant-layout"]::before,
+    :where(.css-1ce7347).ant-layout [class*=" ant-layout"]::before,
+    :where(.css-1ce7347).ant-layout [class^="ant-layout"]::after,
+    :where(.css-1ce7347).ant-layout [class*=" ant-layout"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-layout {
+        display: flex;
+        flex: auto;
+        flex-direction: column;
+        background: #f5f5f5
+    }
+
+    :where(.css-1ce7347).ant-layout,
+    :where(.css-1ce7347).ant-layout * {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-layout-footer {
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        background: #f5f5f5
+    }
+
+    :where(.css-1ce7347).ant-layout-content {
+        flex: auto;
+        color: rgba(0, 0, 0, 0.88);
+        min-height: 0
+    }

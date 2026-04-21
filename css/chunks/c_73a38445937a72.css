@@ -1,0 +1,45 @@
+    :where(.css-1ce7347)[class^="ant-modal"]::before,
+    :where(.css-1ce7347)[class*=" ant-modal"]::before,
+    :where(.css-1ce7347)[class^="ant-modal"]::after,
+    :where(.css-1ce7347)[class*=" ant-modal"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347)[class^="ant-modal"] [class^="ant-modal"]::before,
+    :where(.css-1ce7347)[class*=" ant-modal"] [class^="ant-modal"]::before,
+    :where(.css-1ce7347)[class^="ant-modal"] [class*=" ant-modal"]::before,
+    :where(.css-1ce7347)[class*=" ant-modal"] [class*=" ant-modal"]::before,
+    :where(.css-1ce7347)[class^="ant-modal"] [class^="ant-modal"]::after,
+    :where(.css-1ce7347)[class*=" ant-modal"] [class^="ant-modal"]::after,
+    :where(.css-1ce7347)[class^="ant-modal"] [class*=" ant-modal"]::after,
+    :where(.css-1ce7347)[class*=" ant-modal"] [class*=" ant-modal"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-modal-root .ant-modal-centered::before {
+        display: inline-block;
+        width: 0;
+        height: 100%;
+        vertical-align: middle;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-modal .ant-modal-close:disabled {
+        pointer-events: none
+    }
+
+    :where(.css-1ce7347).ant-modal .ant-modal-close:hover {
+        color: rgba(0, 0, 0, 0.88);
+        background-color: rgba(0, 0, 0, 0.06);
+        text-decoration: none
+    }
+
+    :where(.css-1ce7347).ant-modal .ant-modal-close:active {
+        background-color: rgba(0, 0, 0, 0.15)
+    }
+
+    :where(.css-1ce7347).ant-modal .ant-modal-close:focus-visible {
+        outline: 3px solid #91caff;
+        outline-offset: 1px;
+        transition: outline-offset 0s, outline 0s
+    }

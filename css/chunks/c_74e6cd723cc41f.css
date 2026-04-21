@@ -1,0 +1,1552 @@
+    :where(.css-1ce7347).ant-btn {
+        font-family: Nunito, sans-serif
+    }
+
+    :where(.css-1ce7347).ant-btn::before,
+    :where(.css-1ce7347).ant-btn::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-btn [class^="ant-btn"] {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-btn [class^="ant-btn"]::before,
+    :where(.css-1ce7347).ant-btn [class*=" ant-btn"]::before,
+    :where(.css-1ce7347).ant-btn [class^="ant-btn"]::after,
+    :where(.css-1ce7347).ant-btn [class*=" ant-btn"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-btn {
+        outline: none;
+        position: relative;
+        display: inline-flex;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        text-align: center;
+        background-image: none;
+        background: transparent;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+        user-select: none;
+        touch-action: manipulation
+    }
+
+    :where(.css-1ce7347).ant-btn:disabled>* {
+        pointer-events: none
+    }
+
+    :where(.css-1ce7347).ant-btn:not(:disabled):focus-visible {
+        outline: 3px solid #91caff;
+        outline-offset: 1px;
+        transition: outline-offset 0s, outline 0s
+    }
+
+    :where(.css-1ce7347).ant-btn.ant-btn-two-chinese-chars::first-letter {
+        letter-spacing: 0.34em
+    }
+
+    :where(.css-1ce7347).ant-btn.ant-btn-icon-only {
+        padding-inline: 0
+    }
+
+    :where(.css-1ce7347).ant-btn {
+        font-size: 14px;
+        height: 32px;
+        padding: 0px 15px
+    }
+
+    :where(.css-1ce7347).ant-btn.ant-btn-icon-only {
+        width: 32px
+    }
+
+    :where(.css-1ce7347).ant-btn-lg {
+        font-size: 16px;
+        padding: 0px 15px
+    }
+
+    :where(.css-1ce7347).ant-btn-lg.ant-btn-icon-only {
+        width: 40px
+    }
+
+    :where(.css-1ce7347).ant-btn-lg.ant-btn-icon-only .anticon {
+        font-size: inherit
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default {
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #fff;
+        background: rgba(0, 0, 0, 0.75)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        color: #fff;
+        background: rgba(0, 0, 0, 0.95)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: rgba(0, 0, 0, 0.06)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: rgba(0, 0, 0, 0.15)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover {
+        background: transparent
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active {
+        background: transparent
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-background-ghost:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25);
+        border-color: #d9d9d9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #69b1ff;
+        background: transparent
+    }
+
+    :where(.css-1ce7347).ant-btn-color-default.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #4096ff;
+        border-color: #4096ff;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #0958d9;
+        border-color: #0958d9;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #bae0ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #91caff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #4096ff;
+        background: #e6f4ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #0958d9;
+        background: #91caff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #4096ff;
+        background: transparent
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover {
+        background: transparent;
+        color: #4096ff;
+        border-color: #4096ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active {
+        background: transparent;
+        color: #0958d9;
+        border-color: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-primary.ant-btn-background-ghost:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25);
+        border-color: #d9d9d9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ff7875
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #d9363e
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ff7875;
+        border-color: #ffa39e
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d9363e;
+        border-color: #d9363e
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ffdfdc
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #ffccc7
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ff7875;
+        background: #fff2f0
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #ff7875;
+        background: #ffccc7
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ff7875
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d9363e
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover {
+        background: transparent;
+        color: #ff7875;
+        border-color: #ff7875
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active {
+        background: transparent;
+        color: #d9363e;
+        border-color: #d9363e
+    }
+
+    :where(.css-1ce7347).ant-btn-color-dangerous.ant-btn-background-ghost:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25);
+        border-color: #d9d9d9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-link.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-link.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #69b1ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-link.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-link.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover {
+        background: transparent;
+        color: #69b1ff;
+        border-color: #69b1ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-link.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active {
+        background: transparent;
+        color: #0958d9;
+        border-color: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-link.ant-btn-background-ghost:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25);
+        border-color: #d9d9d9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #4096ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #4096ff;
+        border-color: #4096ff;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #0958d9;
+        border-color: #0958d9;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #bae0ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #91caff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #4096ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #4096ff;
+        background: #e6f4ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-blue.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #0958d9;
+        background: #91caff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #9254de
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #531dab
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #9254de;
+        border-color: #9254de;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #531dab;
+        border-color: #531dab;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #efdbff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #d3adf7
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #9254de
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #531dab
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #9254de;
+        background: #f9f0ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-purple.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #531dab;
+        background: #d3adf7
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #36cfc9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #08979c
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #36cfc9;
+        border-color: #36cfc9;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #08979c;
+        border-color: #08979c;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #b5f5ec
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #87e8de
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #36cfc9
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #08979c
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #36cfc9;
+        background: #e6fffb
+    }
+
+    :where(.css-1ce7347).ant-btn-color-cyan.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #08979c;
+        background: #87e8de
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #73d13d
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #389e0d
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #73d13d;
+        border-color: #73d13d;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #389e0d;
+        border-color: #389e0d;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #d9f7be
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #b7eb8f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #73d13d
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #389e0d
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #73d13d;
+        background: #f6ffed
+    }
+
+    :where(.css-1ce7347).ant-btn-color-green.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #389e0d;
+        background: #b7eb8f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #f759ab
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #c41d7f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #f759ab;
+        border-color: #f759ab;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #c41d7f;
+        border-color: #c41d7f;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ffd6e7
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #ffadd2
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #f759ab
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #c41d7f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #f759ab;
+        background: #fff0f6
+    }
+
+    :where(.css-1ce7347).ant-btn-color-magenta.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #c41d7f;
+        background: #ffadd2
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #f759ab
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #c41d7f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #f759ab;
+        border-color: #f759ab;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #c41d7f;
+        border-color: #c41d7f;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ffd6e7
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #ffadd2
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #f759ab
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #c41d7f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #f759ab;
+        background: #fff0f6
+    }
+
+    :where(.css-1ce7347).ant-btn-color-pink.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #c41d7f;
+        background: #ffadd2
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ff4d4f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #cf1322
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ff4d4f;
+        border-color: #ff4d4f;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #cf1322;
+        border-color: #cf1322;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ffccc7
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #ffa39e
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ff4d4f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #cf1322
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ff4d4f;
+        background: #fff1f0
+    }
+
+    :where(.css-1ce7347).ant-btn-color-red.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #cf1322;
+        background: #ffa39e
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ffa940
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #d46b08
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ffa940;
+        border-color: #ffa940;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d46b08;
+        border-color: #d46b08;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ffe7ba
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #ffd591
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ffa940
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d46b08
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ffa940;
+        background: #fff7e6
+    }
+
+    :where(.css-1ce7347).ant-btn-color-orange.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d46b08;
+        background: #ffd591
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ffec3d
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #d4b106
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ffec3d;
+        border-color: #ffec3d;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d4b106;
+        border-color: #d4b106;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ffffb8
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #fffb8f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ffec3d
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d4b106
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ffec3d;
+        background: #feffe6
+    }
+
+    :where(.css-1ce7347).ant-btn-color-yellow.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d4b106;
+        background: #fffb8f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ff7a45
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #d4380d
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ff7a45;
+        border-color: #ff7a45;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d4380d;
+        border-color: #d4380d;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ffd8bf
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #ffbb96
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ff7a45
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d4380d
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ff7a45;
+        background: #fff2e8
+    }
+
+    :where(.css-1ce7347).ant-btn-color-volcano.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d4380d;
+        background: #ffbb96
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #597ef7
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #1d39c4
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #597ef7;
+        border-color: #597ef7;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #1d39c4;
+        border-color: #1d39c4;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #d6e4ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #adc6ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #597ef7
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #1d39c4
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #597ef7;
+        background: #f0f5ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-geekblue.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #1d39c4;
+        background: #adc6ff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #bae637
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #7cb305
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #bae637;
+        border-color: #bae637;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #7cb305;
+        border-color: #7cb305;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #f4ffb8
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #eaff8f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #bae637
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #7cb305
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #bae637;
+        background: #fcffe6
+    }
+
+    :where(.css-1ce7347).ant-btn-color-lime.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #7cb305;
+        background: #eaff8f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #ffc53d
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #d48806
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ffc53d;
+        border-color: #ffc53d;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d48806;
+        border-color: #d48806;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-filled:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #fff1b8
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active {
+        background: #ffe58f
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ffc53d
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d48806
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #ffc53d;
+        background: #fffbe6
+    }
+
+    :where(.css-1ce7347).ant-btn-color-gold.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: #d48806;
+        background: #ffe58f
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-outlined {
+        border-color: #d9d9d9;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-outlined:disabled,
+    :where(.css-1ce7347).ant-btn-variant-dashed:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+    :where(.css-1ce7347).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #4096ff;
+        border-color: #4096ff;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
+    :where(.css-1ce7347).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
+        color: #0958d9;
+        border-color: #0958d9;
+        background: #ffffff
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-text:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover {
+        color: rgba(0, 0, 0, 0.88);
+        background: rgba(0, 0, 0, 0.04)
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
+        color: rgba(0, 0, 0, 0.88);
+        background: rgba(0, 0, 0, 0.15)
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-solid:disabled {
+        cursor: not-allowed;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+        background: rgba(0, 0, 0, 0.04);
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+        background: #4096ff;
+        color: #fff
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
+        background: #0958d9;
+        color: #fff
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-link {
+        box-shadow: none
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-link:disabled {
+        cursor: not-allowed;
+        color: rgba(0, 0, 0, 0.25)
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+        color: #69b1ff;
+        background: transparent
+    }
+
+    :where(.css-1ce7347).ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active {
+        color: #0958d9
+    }
+
+    :where(.css-1ce7347).ant-btn-group .ant-btn:hover,
+    :where(.css-1ce7347).ant-btn-group .ant-btn:focus,
+    :where(.css-1ce7347).ant-btn-group .ant-btn:active {
+        z-index: 2
+    }
+
+    :where(.css-1ce7347).ant-btn-group>span:not(:last-child):not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>.ant-btn-primary:not(:last-child):not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>span:not(:last-child)>.ant-btn-primary:not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>.ant-btn-primary:not(:last-child)>.ant-btn-primary:not(:disabled) {
+        border-inline-end-color: #4096ff
+    }
+
+    :where(.css-1ce7347).ant-btn-group>span:not(:first-child):not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>.ant-btn-primary:not(:first-child):not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>span:not(:first-child)>.ant-btn-primary:not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>.ant-btn-primary:not(:first-child)>.ant-btn-primary:not(:disabled) {
+        border-inline-start-color: #4096ff
+    }
+
+    :where(.css-1ce7347).ant-btn-group>span:not(:last-child):not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>.ant-btn-danger:not(:last-child):not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>span:not(:last-child)>.ant-btn-danger:not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>.ant-btn-danger:not(:last-child)>.ant-btn-danger:not(:disabled) {
+        border-inline-end-color: #ff7875
+    }
+
+    :where(.css-1ce7347).ant-btn-group>span:not(:first-child):not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>.ant-btn-danger:not(:first-child):not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>span:not(:first-child)>.ant-btn-danger:not(:disabled),
+    :where(.css-1ce7347).ant-btn-group>.ant-btn-danger:not(:first-child)>.ant-btn-danger:not(:disabled) {
+        border-inline-start-color: #ff7875
+    }

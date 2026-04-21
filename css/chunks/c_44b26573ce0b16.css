@@ -1,0 +1,76 @@
+    :where(.css-1ce7347).ant-card::before,
+    :where(.css-1ce7347).ant-card::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-card [class^="ant-card"]::before,
+    :where(.css-1ce7347).ant-card [class*=" ant-card"]::before,
+    :where(.css-1ce7347).ant-card [class^="ant-card"]::after,
+    :where(.css-1ce7347).ant-card [class*=" ant-card"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-card .ant-card-head::before {
+        display: table;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-card .ant-card-head::after {
+        display: table;
+        clear: both;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-card .ant-card-body::before {
+        display: table;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-card .ant-card-body::after {
+        display: table;
+        clear: both;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-card .ant-card-grid-hoverable:hover {
+        position: relative;
+        z-index: 1;
+        box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 5px 12px 4px rgba(0, 0, 0, 0.09)
+    }
+
+    :where(.css-1ce7347).ant-card .ant-card-actions::before {
+        display: table;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-card .ant-card-actions::after {
+        display: table;
+        clear: both;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-card .ant-card-actions>li>span:hover {
+        color: #1677ff;
+        transition: color 0.2s
+    }
+
+    :where(.css-1ce7347).ant-card .ant-card-actions>li>span a:not(.ant-card-btn):hover,
+    :where(.css-1ce7347).ant-card .ant-card-actions>li>span>.anticon:hover {
+        color: #1677ff
+    }
+
+    :where(.css-1ce7347).ant-card .ant-card-meta::before {
+        display: table;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-card .ant-card-meta::after {
+        display: table;
+        clear: both;
+        content: ""
+    }
+
+    :where(.css-1ce7347).ant-card-hoverable:hover {
+        border-color: transparent;
+        box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 5px 12px 4px rgba(0, 0, 0, 0.09)
+    }

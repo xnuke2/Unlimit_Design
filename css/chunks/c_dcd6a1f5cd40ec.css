@@ -1,0 +1,48 @@
+    :where(.css-1ce7347).ant-row {
+        font-family: Nunito, sans-serif;
+        font-size: 14px
+    }
+
+    :where(.css-1ce7347).ant-row::before,
+    :where(.css-1ce7347).ant-row::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-row [class^="ant-row"],
+    :where(.css-1ce7347).ant-row [class*=" ant-row"] {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-row [class^="ant-row"]::before,
+    :where(.css-1ce7347).ant-row [class*=" ant-row"]::before,
+    :where(.css-1ce7347).ant-row [class^="ant-row"]::after,
+    :where(.css-1ce7347).ant-row [class*=" ant-row"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-row {
+        display: flex;
+        flex-flow: row wrap;
+        min-width: 0
+    }
+
+    :where(.css-1ce7347).ant-row::before,
+    :where(.css-1ce7347).ant-row::after {
+        display: flex
+    }
+
+    :where(.css-1ce7347).ant-row-center {
+        justify-content: center
+    }
+
+    :where(.css-1ce7347).ant-row-end {
+        justify-content: flex-end
+    }
+
+    :where(.css-1ce7347).ant-row-space-around {
+        justify-content: space-around
+    }
+
+    :where(.css-1ce7347).ant-row-middle {
+        align-items: center
+    }

@@ -1,0 +1,51 @@
+    :where(.css-1ce7347).ant-empty {
+        font-family: Nunito, sans-serif;
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-empty::before,
+    :where(.css-1ce7347).ant-empty::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-empty [class^="ant-empty"] {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-empty [class^="ant-empty"]::before,
+    :where(.css-1ce7347).ant-empty [class*=" ant-empty"]::before,
+    :where(.css-1ce7347).ant-empty [class^="ant-empty"]::after,
+    :where(.css-1ce7347).ant-empty [class*=" ant-empty"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-empty {
+        margin-inline: 8px;
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        text-align: center
+    }
+
+    :where(.css-1ce7347).ant-empty .ant-empty-image {
+        margin-bottom: 8px;
+        opacity: 1
+    }
+
+    :where(.css-1ce7347).ant-empty .ant-empty-image svg {
+        max-width: 100%;
+        height: 100%;
+        margin: auto
+    }
+
+    :where(.css-1ce7347).ant-empty-normal {
+        margin-block: 32px;
+        color: rgba(0, 0, 0, 0.45)
+    }
+
+    :where(.css-1ce7347).ant-empty-normal .ant-empty-description {
+        color: rgba(0, 0, 0, 0.45)
+    }
+
+    :where(.css-1ce7347).ant-empty-normal .ant-empty-image {
+        height: 40px
+    }

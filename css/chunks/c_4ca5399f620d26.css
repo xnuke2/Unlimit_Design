@@ -1,0 +1,15 @@
+    :where(.css-1ce7347).ant-list::before,
+    :where(.css-1ce7347).ant-list::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-list [class^="ant-list"]::before,
+    :where(.css-1ce7347).ant-list [class*=" ant-list"]::before,
+    :where(.css-1ce7347).ant-list [class^="ant-list"]::after,
+    :where(.css-1ce7347).ant-list [class*=" ant-list"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-list .ant-list-item .ant-list-item-meta .ant-list-item-meta-title>a:hover {
+        color: #1677ff
+    }

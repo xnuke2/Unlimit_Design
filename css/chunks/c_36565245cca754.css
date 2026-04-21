@@ -1,0 +1,19 @@
+    :where(.css-1ce7347).ant-alert::before,
+    :where(.css-1ce7347).ant-alert::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-alert [class^="ant-alert"]::before,
+    :where(.css-1ce7347).ant-alert [class*=" ant-alert"]::before,
+    :where(.css-1ce7347).ant-alert [class^="ant-alert"]::after,
+    :where(.css-1ce7347).ant-alert [class*=" ant-alert"]::after {
+        box-sizing: border-box
+    }
+
+    :where(.css-1ce7347).ant-alert .ant-alert-close-icon .anticon-close:hover {
+        color: rgba(0, 0, 0, 0.88)
+    }
+
+    :where(.css-1ce7347).ant-alert-close-text:hover {
+        color: rgba(0, 0, 0, 0.88)
+    }

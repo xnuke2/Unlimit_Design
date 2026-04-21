@@ -1,0 +1,46 @@
+    a:where(.css-1ce7347):hover {
+        color: #69b1ff
+    }
+
+    a:where(.css-1ce7347):active {
+        color: #0958d9
+    }
+
+    a:where(.css-1ce7347):active,
+    a:where(.css-1ce7347):hover {
+        text-decoration: none;
+        outline: 0
+    }
+
+    a:where(.css-1ce7347):focus {
+        text-decoration: none;
+        outline: 0
+    }
+
+    :where(.css-1ce7347) a {
+        text-decoration: none;
+        background-color: transparent;
+        outline: none;
+        cursor: pointer;
+        transition: color 0.3s;
+        -webkit-text-decoration-skip: objects
+    }
+
+    :where(.css-1ce7347) a:hover {
+        color: #69b1ff
+    }
+
+    :where(.css-1ce7347) a:active {
+        color: #0958d9
+    }
+
+    :where(.css-1ce7347) a:active,
+    :where(.css-1ce7347) a:hover {
+        text-decoration: none;
+        outline: 0
+    }
+
+    :where(.css-1ce7347) a:focus {
+        text-decoration: none;
+        outline: 0
+    }

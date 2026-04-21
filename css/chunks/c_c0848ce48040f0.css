@@ -1,0 +1,13 @@
+    @keyframes css-1ce7347-antMoveDownIn {
+        0% {
+            transform: translate3d(0, 100%, 0);
+            transform-origin: 0 0;
+            opacity: 0
+        }
+
+        100% {
+            transform: translate3d(0, 0, 0);
+            transform-origin: 0 0;
+            opacity: 1
+        }
+    }

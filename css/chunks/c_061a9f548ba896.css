@@ -1,0 +1,19 @@
+    :where(.css-1ce7347).ant-space {
+        display: inline-flex
+    }
+
+    :where(.css-1ce7347).ant-space-align-center {
+        align-items: center
+    }
+
+    :where(.css-1ce7347).ant-space-gap-row-small {
+        row-gap: 8px
+    }
+
+    :where(.css-1ce7347).ant-space-gap-col-small {
+        column-gap: 8px
+    }
+
+    :where(.css-1ce7347).ant-space-vertical {
+        flex-direction: column
+    }
