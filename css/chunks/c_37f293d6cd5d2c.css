@@ -17,7 +17,7 @@
 
     :where(.css-1ce7347).ant-alert {
         margin: 0;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.5714285714285714;
         list-style: none;
         font-family: Nunito, sans-serif;
@@ -45,7 +45,7 @@
     :where(.css-1ce7347).ant-alert-with-description .ant-alert-message {
         display: block;
         margin-bottom: 8px;
-        color: rgba(0, 0, 0, 0.88);
+        color: rgba(9, 8, 8, 0.88);
         font-size: 16px
     }
 
@@ -55,12 +55,12 @@
     }
 
     :where(.css-1ce7347).ant-alert-warning {
-        background: #fffbe6;
-        border: 1px solid #ffe58f
+        background: #fef9e6;
+        border: 1.5px solid #e5a907
     }
 
     :where(.css-1ce7347).ant-alert-warning .ant-alert-icon {
-        color: #faad14
+        color: #e5a907
     }
 
     :where(.css-1ce7347).ant-alert .ant-alert-close-icon .anticon-close:hover {
