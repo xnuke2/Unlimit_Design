@@ -188,7 +188,7 @@
     }
 
     :where(.css-1ce7347).ant-btn-color-primary.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active {
-        color: #0958d9;
+        color: #09488d;
         background: #91caff
     }
 
@@ -207,8 +207,8 @@
     }
 
     :where(.css-1ce7347).ant-btn-color-primary.ant-btn-background-ghost {
-        color: #1677ff;
-        border-color: #1677ff;
+        color: #09488d;
+        border-color: #09488d;
         box-shadow: none
     }
 
@@ -220,8 +220,8 @@
 
     :where(.css-1ce7347).ant-btn-color-primary.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active {
         background: transparent;
-        color: #0958d9;
-        border-color: #0958d9
+        color: #09488d;
+        border-color: #09488d
     }
 
     :where(.css-1ce7347).ant-btn-color-primary.ant-btn-background-ghost:disabled {
@@ -1493,7 +1493,7 @@
 
     :where(.css-1ce7347).ant-btn-variant-solid {
         color: #fff;
-        background: #1677ff
+        background: #09488d
     }
 
     :where(.css-1ce7347).ant-btn-variant-solid:disabled {
@@ -1510,7 +1510,7 @@
     }
 
     :where(.css-1ce7347).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
-        background: #0958d9;
+        background: #09488d;
         color: #fff
     }
 
