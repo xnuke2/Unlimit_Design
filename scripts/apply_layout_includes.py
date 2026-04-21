@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Inline menu + footer from partials/layout-common.html into *.html (no fetch).
+"""Legacy helper: expects <div data-include="site-menu-inner"> slots in HTML.
 
-Run after editing the partial:
-  python3 scripts/apply_layout_includes.py
+For the current static pages, run instead (inlines header + menu + footer):
+  python3 scripts/apply_layout_regex.py
 """
 
 from __future__ import annotations
