@@ -5,20 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Офлайн-копия: навигация по страницам</title>
   <link rel="stylesheet" href="css/pages/portal.css" />
+  <style>
+    .skip-links { position: absolute; top: 0; left: 0; z-index: 9999; }
+    .skip-link {
+      position: absolute; top: -9999px; left: -9999px;
+      background: #0067ad; color: #fff; padding: 8px 16px;
+      font-size: 14px; font-family: sans-serif; text-decoration: none;
+      border-radius: 0 0 4px 0;
+    }
+    .skip-link:focus { top: 0; left: 0; outline: 3px solid #f53b59; outline-offset: 2px; }
+  </style>
 </head>
 <body>
-  <h1>Офлайн-система страниц (GIS Наука)</h1>
-  <p>Точки входа и связи между четырьмя сохранёнными HTML-файлами.</p>
-  <h2>Карта страниц</h2>
-  <nav aria-label="Структура копии">
-    <ul>
-      <li><a href="index.html">Главная сайта</a> — корневая страница портала; в меню ссылка «Гранты» ведёт на локальный <code>grant.html</code>.</li>
-      <li><a href="grant.html">Гранты и меры поддержки</a> — список мер поддержки (бывший «Навигатор»); первая карточка в списке (мера №248) ведёт на <code>details.html</code>.</li>
-      <li><a href="details.html">Паспорт меры №248</a> — детали первой меры в списке навигатора; шапка ведёт обратно в навигатор.</li>
-      <li><a href="details_2.html">Требования, мера №248</a> — та же мера, что в <code>details.html</code>, но отдельное сохранение SingleFile с открытой вкладкой «Требования»; канонический документ паспорта — <code>details.html</code>.</li>
-      <li><a href="v-razrabotke.html">В разработке</a> — заглушка для разделов меню вне сценария офлайн-копии.</li>
-    </ul>
-  </nav>
-  <p class="note">Остальные ссылки внутри страниц по-прежнему могут вести на живой сайт gisnauka.ru или на меры, для которых нет локальных HTML.</p>
+<div class="skip-links" aria-label="Быстрая навигация по разделам страницы">
+  <a class="skip-link" href="#main-content">Перейти к основному содержимому</a>
+  <a class="skip-link" href="#site-header">Перейти к шапке страницы</a>
+  <a class="skip-link" href="#site-navigation">Перейти к навигации по страницам</a>
+  <a class="skip-link" href="#site-footer">Перейти к подвалу</a>
+</div>
+  <header id="site-header" role="banner" aria-label="Шапка страницы" tabindex="-1">
+    <h1>Офлайн-система страниц (GIS Наука)</h1>
+    <p>Точки входа и связи между четырьмя сохранёнными HTML-файлами.</p>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <h2 id="pages-map-heading">Карта страниц</h2>
+    <nav id="site-navigation" aria-labelledby="pages-map-heading">
+      <ul>
+        <li><a href="index.html">Главная сайта</a> — корневая страница портала; в меню ссылка «Гранты» ведёт на локальный <code>grant.html</code>.</li>
+        <li><a href="grant.html">Гранты и меры поддержки</a> — список мер поддержки (бывший «Навигатор»); первая карточка в списке (мера №248) ведёт на <code>details.html</code>.</li>
+        <li><a href="details.html">Паспорт меры №248</a> — детали первой меры в списке навигатора; шапка ведёт обратно в навигатор.</li>
+        <li><a href="details_2.html">Требования, мера №248</a> — та же мера, что в <code>details.html</code>, но отдельное сохранение SingleFile с открытой вкладкой «Требования»; канонический документ паспорта — <code>details.html</code>.</li>
+        <li><a href="v-razrabotke.html">В разработке</a> — заглушка для разделов меню вне сценария офлайн-копии.</li>
+      </ul>
+    </nav>
+    <p class="note">Остальные ссылки внутри страниц по-прежнему могут вести на живой сайт gisnauka.ru или на меры, для которых нет локальных HTML.</p>
+  </main>
+  <footer id="site-footer" role="contentinfo" aria-label="Подвал страницы" tabindex="-1">
+    <p><small>Офлайн-копия для навигации по лендмаркам и ссылкам между файлами.</small></p>
+  </footer>
 </body>
 </html>
