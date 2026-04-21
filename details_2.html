@@ -21,16 +21,31 @@
 <meta http-equiv=content-security-policy
     content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'self' 'unsafe-inline'; media-src 'self' data:; connect-src 'self'; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;">
 <link rel=stylesheet href=css/pages/details_2.css>
+<style>
+.skip-links { position: absolute; top: 0; left: 0; z-index: 9999; }
+.skip-link {
+  position: absolute; top: -9999px; left: -9999px;
+  background: #0067ad; color: #fff; padding: 8px 16px;
+  font-size: 14px; font-family: sans-serif; text-decoration: none;
+  border-radius: 0 0 4px 0;
+}
+.skip-link:focus { top: 0; left: 0; outline: 3px solid #f53b59; outline-offset: 2px; }
+</style>
 </head>
 
 <body>
-
+<div class="skip-links" aria-label="Быстрая навигация по разделам страницы">
+  <a class="skip-link" href="#main-content">Перейти к основному содержимому</a>
+  <a class="skip-link" href="#site-header">Перейти к шапке сайта</a>
+  <a class="skip-link" href="#site-navigation">Перейти к основной навигации</a>
+  <a class="skip-link" href="#site-footer">Перейти к подвалу</a>
+</div>
 
     <div id=root>
         <div style=display:contents>
             <div class="css-1ce7347 ant-app">
                 <div class="ant-layout css-1ce7347" style=min-height:100vh>
-                    <div class=affixTop>
+                    <div id="site-header" class=affixTop role="banner" aria-label="Шапка сайта" tabindex="-1">
                         <div aria-hidden=true style=width:1710px;height:80px></div>
                         <div class="css-1ce7347 ant-affix" style=position:fixed;top:0px;width:1710px;height:80px>
                             <div
@@ -43,7 +58,7 @@
                                             <div class=ant-space-item><a href=index.html />
                                                 <div
                                                     class="ant-space css-1ce7347 ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small">
-                                                    <div class=ant-space-item><img alt=?
+                                                    <div class=ant-space-item><img alt=""
                                                             src=assets/images/7eed857cf3c38d44.png
                                                             style=height:50px></div>
                                                     <div class=ant-space-item>
@@ -68,7 +83,7 @@
                                             <div class=ant-space-item><a href=https://gisnauka.ru/attorney/public/issue>
                                                     <div class=hoverSize
                                                         style=display:flex;flex-direction:column;align-items:center;gap:6px;font-family:Nunito,sans-serif;font-weight:700;font-size:10px;text-align:center;text-transform:uppercase;color:rgb(0,103,173)>
-                                                        <img alt=?
+                                                        <img alt=""
                                                             src=assets/images/1b81cbfa37ea22d9.png
                                                             style=height:40px;width:40px>МЧД</div>
                                                 </a></div>
@@ -90,7 +105,7 @@
                     </div>
                     <div class=affixMenu>
                         <div>
-                            <nav class=menuBar aria-label="Основная навигация">
+                            <nav id="site-navigation" class=menuBar aria-label="Основная навигация">
                                 <div class=menuCon>
                                     <div class=mainMenu style=box-shadow:none>
                                         <div class=leftMenu>
@@ -101,7 +116,7 @@
                                                         <div class="ant-row css-1ce7347">
                                                             <div class="ant-col ant-col-24 css-1ce7347">
                                                                 <div class="ant-space-compact css-1ce7347 groupJustify">
-                                                                    <a class=menuLink href=index.html aria-label="Главная"><img
+                                                                    <a class=menuLink href=index.html ><img
                                                                         alt=""
                                                                         src="assets/images/a76a8df3dac988c4.png"
                                                                         class=menuImg aria-hidden=true><span
@@ -123,27 +138,27 @@
                                                                             </path>
                                                                         </svg><span class=menuName>Гранты</span></a><a
                                                                         class=menuLink
-                                                                        href=v-razrabotke.html aria-label="Популяризация науки (в разработке)"><img
+                                                                        href=v-razrabotke.html ><img
                                                                             alt=""
                                                                             src=assets/images/861148c521dd5856.png
                                                                             class=menuImg aria-hidden=true><span
                                                                             class=menuName>Популяризация
                                                                             науки</span></a><a class=menuLink
-                                                                        href=v-razrabotke.html aria-label="Комиссия НТР (в разработке)"><img alt=""
+                                                                        href=v-razrabotke.html ><img alt=""
                                                                             src=assets/images/8f2d19c318044659.png
                                                                             class=menuImg aria-hidden=true><span class=menuName>Комиссия
                                                                             НТР</span></a><a class=menuLink href=v-razrabotke.html
-                                                                        aria-label="Отраслевые и специальные сегменты (в разработке)"
+                                                                        
                                                                         ><img alt=""
                                                                             src="assets/images/d27a557076baae20.png"
                                                                             class=menuImg aria-hidden=true><span
                                                                             class=menuName>Отраслевые и специальные
                                                                             сегменты</span></a><a class=menuLink
-                                                                        href=v-razrabotke.html aria-label="База знаний (в разработке)"><img alt=""
+                                                                        href=v-razrabotke.html ><img alt=""
                                                                             src=assets/images/b79fe0459545086f.png
                                                                             class=menuImg aria-hidden=true><span class=menuName>База
                                                                             знаний</span></a><a class=menuLink href=v-razrabotke.html
-                                                                        aria-label="Аналитика (в разработке)"
+                                                                        
                                                                         ><img alt=""
                                                                             src=assets/images/8d92bfa7603c6024.png
                                                                             class=menuImg aria-hidden=true><span
@@ -200,7 +215,7 @@
                                                                         </path>
                                                                     </svg></span></div>
                                                         </div><span class="ant-page-header-heading-title css-1ce7347"
-                                                            title="Вернуться к навигатору">Вернуться к навигатору</span>
+                                                            >Вернуться к навигатору</span>
                                                     </div><span class="ant-page-header-heading-extra css-1ce7347">
                                                         <div
                                                             class="ant-space css-1ce7347 ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small">
@@ -470,7 +485,7 @@
                             </div>
                         </div>
                     </main>
-                    <footer class="ant-layout-footer css-1ce7347" style="border-top:var(--layout-gap) solid #eaedef">
+                    <footer id="site-footer" class="ant-layout-footer css-1ce7347" role="contentinfo" aria-label="Подвал сайта" style="border-top:var(--layout-gap) solid #eaedef">
                         <div class=footer style=text-align:center>
                             <div type=flex class="ant-row ant-row-space-around ant-row-middle css-1ce7347">
                                 <div
