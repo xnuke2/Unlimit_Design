@@ -21,7 +21,7 @@
 
     :where(.css-1ce7347).ant-empty {
         margin-inline: 8px;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 1.5714285714285714;
         text-align: center
     }
@@ -43,7 +43,7 @@
     }
 
     :where(.css-1ce7347).ant-empty-normal .ant-empty-description {
-        color: rgba(0, 0, 0, 0.45)
+        color: rgba(0, 0, 0, 0.797)
     }
 
     :where(.css-1ce7347).ant-empty-normal .ant-empty-image {
