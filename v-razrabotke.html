@@ -7,7 +7,20 @@
 <link rel=canonical href=v-razrabotke.html>
 <style>
   :root { color-scheme: light; }
-  body { margin: 0; min-height: 100vh; background: #eaedef; color: #1a1a1a; line-height: 1.5; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { max-width: 100%; }
+  body {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: #eaedef;
+    color: #1a1a1a;
+    line-height: 1.5;
+  }
   .skip-links { position: absolute; top: 0; left: 0; z-index: 9999; }
   .skip-link {
     position: absolute; top: -9999px; left: -9999px;
@@ -16,21 +29,70 @@
     border-radius: 0 0 4px 0;
   }
   .skip-link:focus { top: 0; left: 0; outline: 3px solid #f53b59; outline-offset: 2px; }
-  header[role="banner"] { max-width: 36rem; width: 100%; margin-bottom: 0.5rem; }
-  header h2 { margin: 0; font-size: 1rem; color: #0067ad; font-weight: 600; }
-  main { max-width: 36rem; width: 100%; background: #fff; padding: 2rem 2.25rem; border-radius: 12px;
-    box-shadow: 0 4px 24px rgba(0,0,0,.08); }
+  #site-header,
+  .affixMenu {
+    width: 100%;
+    flex-shrink: 0;
+  }
+  main#main-content {
+    flex: 1 0 auto;
+    align-self: center;
+    width: min(36rem, calc(100% - 2rem));
+    max-width: 100%;
+    margin: 1rem auto;
+    padding: 2rem clamp(1.25rem, 4vw, 2.25rem);
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,.08);
+    text-align: center;
+  }
+  main#main-content h1,
+  main#main-content p { text-wrap: balance; }
   h1 { margin: 0 0 0.75rem; font-size: 1.5rem; color: #0067ad; }
   p { margin: 0 0 1.25rem; }
-  a.button-home { display: inline-block; padding: 0.65rem 1.25rem; background: #0067ad; color: #fff !important;
-    text-decoration: none; border-radius: 8px; font-weight: 600; }
+  a.button-home {
+    display: inline-block;
+    padding: 0.65rem 1.25rem;
+    background: #0067ad;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+  }
   a.button-home:focus { outline: 3px solid #f53b59; outline-offset: 2px; }
-  footer[role="contentinfo"] { max-width: 36rem; width: 100%; margin-top: 1rem; font-size: 0.875rem; color: #555; text-align: center; }
+  #site-footer {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-top: auto;
+  }
+  #site-footer.ant-layout-footer {
+    padding: 1.25rem clamp(0.75rem, 4vw, 1.5rem) !important;
+    box-sizing: border-box;
+  }
+  #site-footer .footer {
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  #site-footer .ant-row {
+    justify-content: center;
+    row-gap: 0.75rem;
+  }
+  #site-footer .ant-col { max-width: 100%; }
+  #site-footer .footerLastP { overflow-wrap: anywhere; hyphens: auto; }
 </style>
 
 <link rel="stylesheet" href="css/pages/index.css">
 </head>
 <body>
+<div class="skip-links" aria-label="Быстрая навигация по разделам страницы">
+  <a class="skip-link" href="#main-content">Перейти к основному содержимому</a>
+  <a class="skip-link" href="#site-header">Перейти к шапке сайта</a>
+  <a class="skip-link" href="#site-navigation">Перейти к основной навигации</a>
+  <a class="skip-link" href="#site-footer">Перейти к подвалу</a>
+</div>
                     <div id="site-header" class=affixTop role="banner" aria-label="Шапка сайта" tabindex="-1">
                         <div class="css-1ce7347" style="position:relative;width:100%;max-width:100%">
                             <div
