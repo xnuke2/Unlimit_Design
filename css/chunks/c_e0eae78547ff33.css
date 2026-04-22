@@ -1487,7 +1487,7 @@
 
     :where(.css-1ce7347).ant-btn-variant-solid {
         color: #fff;
-        background: #1677ff
+        background: #09488d
     }
 
     :where(.css-1ce7347).ant-btn-variant-solid:disabled {
@@ -1499,12 +1499,12 @@
     }
 
     :where(.css-1ce7347).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
-        background: #4096ff;
+        background: #09488d;
         color: #fff
     }
 
     :where(.css-1ce7347).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active {
-        background: #0958d9;
+        background: #09488d;
         color: #fff
     }
 

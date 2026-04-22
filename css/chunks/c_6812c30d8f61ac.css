@@ -1471,8 +1471,8 @@
 
     :where(.css-1ce7347).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active,
     :where(.css-1ce7347).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active {
-        color: #0958d9;
-        border-color: #0958d9;
+        color: #09488d;
+        border-color: #09488d;
         background: #ffffff
     }
 
@@ -1505,7 +1505,7 @@
     }
 
     :where(.css-1ce7347).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
-        background: #4096ff;
+        background: #09488d;
         color: #fff
     }
 
@@ -1524,7 +1524,7 @@
     }
 
     :where(.css-1ce7347).ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
-        color: #69b1ff;
+        color: #09488d;
         background: transparent
     }
 
@@ -1542,14 +1542,14 @@
     :where(.css-1ce7347).ant-btn-group>.ant-btn-primary:not(:last-child):not(:disabled),
     :where(.css-1ce7347).ant-btn-group>span:not(:last-child)>.ant-btn-primary:not(:disabled),
     :where(.css-1ce7347).ant-btn-group>.ant-btn-primary:not(:last-child)>.ant-btn-primary:not(:disabled) {
-        border-inline-end-color: #4096ff
+        border-inline-end-color: #09488d
     }
 
     :where(.css-1ce7347).ant-btn-group>span:not(:first-child):not(:disabled),
     :where(.css-1ce7347).ant-btn-group>.ant-btn-primary:not(:first-child):not(:disabled),
     :where(.css-1ce7347).ant-btn-group>span:not(:first-child)>.ant-btn-primary:not(:disabled),
     :where(.css-1ce7347).ant-btn-group>.ant-btn-primary:not(:first-child)>.ant-btn-primary:not(:disabled) {
-        border-inline-start-color: #4096ff
+        border-inline-start-color: #09488d
     }
 
     :where(.css-1ce7347).ant-btn-group>span:not(:last-child):not(:disabled),
