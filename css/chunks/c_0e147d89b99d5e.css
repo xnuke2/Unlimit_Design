@@ -298,7 +298,7 @@
 
     .mainContent {
         z-index: 2;
-        background-color: #eaedef;
+        background-color: #fff;
         width: 100%;
         height: auto;
         position: relative
@@ -448,40 +448,40 @@
         background-color: #fff
     }
 
-    .mainMenu .groupJustify {
-        display: flex !important
-    }
+   .mainMenu .groupJustify {
+    display: flex !important;
+}
 
-    .mainMenu .groupJustify .ant-btn,
-    .mainMenu .groupJustify .menuLink {
-        flex: 1 !important
-    }
+.mainMenu .groupJustify .ant-btn,
+.mainMenu .groupJustify .menuLink {
+    flex: 1 !important;
+    height: auto;
+    box-shadow: none;
+    background: rgba(52, 50, 50, .08);
+    border: none;
+    border-radius: 0;
+    padding: 17px 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    color: #fff !important;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
 
-    .mainMenu .groupJustify .ant-btn,
-    .mainMenu .groupJustify .menuLink {
-        height: auto;
-        box-shadow: none;
-        background: rgba(52, 50, 50, .08);
-        border: none;
-        border-radius: 0;
-        padding: 17px 5px;
-        font-size: 16px;
-        transition: all .3s;
-        color: #fff !important
-    }
-
-    .mainMenu .groupJustify .menuLink {
-        text-align: center;
-        white-space: nowrap
-    }
-
-    .mainMenu .groupJustify .ant-btn:hover,
-    .mainMenu .groupJustify .ant-btn:active,
-    .mainMenu .groupJustify .menuLink:hover,
-    .mainMenu .groupJustify .menuLink:active {
-        background: rgba(52, 50, 50, .37);
-        transition: all .3s
-    }
+.mainMenu .groupJustify .ant-btn:hover,
+.mainMenu .groupJustify .ant-btn:active,
+.mainMenu .groupJustify .menuLink:hover,
+.mainMenu .groupJustify .menuLink:active {
+    background-color: #105ad5;
+    transform: none;
+    margin: 0;
+    padding: 17px 5px; 
+}
 
     .inputGlobalSearch .ant-input {
         z-index: 2;
