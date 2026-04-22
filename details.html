@@ -328,9 +328,9 @@
                                                 </aside>
                                                 <div class="ant-tabs-content-holder">
                                                     <div id="details-tab-message" class="details-a11y-banner details-a11y-banner--info" role="status" aria-live="polite" aria-atomic="true" tabindex="-1" hidden></div>
-                                                    <div id="details-main-info-region" role="region" aria-label="Основная информация по паспорту меры поддержки" tabindex="-1">
+                                                    <div id="details-main-info-region" role="region" aria-labelledby="details-section-btn-main-info" tabindex="-1">
                                                     <div class="ant-tabs-content ant-tabs-content-left">
-                                                        <div role="tabpanel" tabindex="-1" aria-hidden="false" class="ant-tabs-tabpane ant-tabs-tabpane-active" id="rc-tabs-0-panel-main-info" aria-labelledby="details-section-btn-main-info">
+                                                        <div class="ant-tabs-tabpane ant-tabs-tabpane-active" id="rc-tabs-0-panel-main-info">
                                                             <div class="ant-row css-1ce7347" style="margin-left:-4px;margin-right:-4px;row-gap:8px">
                                                                 <div class="ant-col ant-col-24 css-1ce7347" style="padding-left:4px;padding-right:4px"><b style="font-size:16px">Назначение меры</b></div>
                                                                 <div class="ant-col ant-col-24 css-1ce7347" style="padding-left:4px;padding-right:4px">
@@ -730,6 +730,9 @@
             msg.textContent = '';
             msg.setAttribute('hidden', '');
           }
+          window.setTimeout(function () {
+            if (mainRegion) mainRegion.focus({ preventScroll: false });
+          }, 0);
           return;
         }
 
